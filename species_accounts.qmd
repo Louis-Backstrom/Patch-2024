@@ -2999,7 +2999,7 @@ mapview(list(filter(patch_tracks, common_name == "Coal Tit"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Although less abundant than [Great](species_accounts.qmd#great-tit) or [Blue](species_accounts.qmd#eurasian-blue-tit) Tits, nevertheless a common bird throughout the patch, particularly favouring stands of conifers such as those around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) or the [Observatory](site_accounts.qmd#st-andrews-observatory). More frequently seen during the winter period, although unclear whether this is reflective of an influx of migrants from further afield, or changes in the detectability of local resident birds. Birds bred on the patch, with chicks seen at the [Sports Centre](site_accounts.qmd#st-andrews-sports-centre) on the [8th of June](https://ebird.org/checklist/S180071700) and at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [1st of July](https://ebird.org/checklist/S184803013). The high count of the year was of just seven birds, seen around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [29th of September](https://ebird.org/checklist/S196847099).
 
 ## Eurasian Blue Tit
 
