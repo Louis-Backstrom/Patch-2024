@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>analysis – St Andrews Patch Recap 2024</title>
+<title>Analysis – St Andrews Patch Recap 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,10 +123,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -145,6 +141,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="./site_accounts.html"> 
 <span class="menu-text">Site Accounts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./checklists.html"> 
+<span class="menu-text">Checklists</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -165,7 +165,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">analysis</h1>
+<h1 class="title">Analysis</h1>
 </div>
 
 
@@ -182,6 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p>Please navigate to another page using the toolbar above.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(renv)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -214,7 +215,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing tidyverse ...                      OK [linked from cache]
-Successfully installed 1 package in 19 milliseconds.</code></pre>
+Successfully installed 1 package in 40 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install</span>(<span class="st">"sf"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -224,7 +225,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing sf ...                             OK [linked from cache]
-Successfully installed 1 package in 18 milliseconds.</code></pre>
+Successfully installed 1 package in 34 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install</span>(<span class="st">"CornellLabofOrnithology/auk"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -237,7 +238,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing auk ...                            OK [linked from cache]
-Successfully installed 1 package in 16 milliseconds.</code></pre>
+Successfully installed 1 package in 36 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install</span>(<span class="st">"DT"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -247,7 +248,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing DT ...                             OK [linked from cache]
-Successfully installed 1 package in 16 milliseconds.</code></pre>
+Successfully installed 1 package in 38 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install</span>(<span class="st">"cowplot"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -257,7 +258,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing cowplot ...                        OK [linked from cache]
-Successfully installed 1 package in 16 milliseconds.</code></pre>
+Successfully installed 1 package in 36 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install</span>(<span class="st">"mapview"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -267,7 +268,7 @@ These packages will be installed into "~/GitHub/Patch-2024/renv/library/R-4.3/x8
 
 # Installing packages --------------------------------------------------------
 - Installing mapview ...                        OK [linked from cache]
-Successfully installed 1 package in 18 milliseconds.</code></pre>
+Successfully installed 1 package in 41 milliseconds.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -581,6 +582,20 @@ family_common, category, report_as.y, extinct)`</code></pre>
 can override using the `.groups` argument.</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(patch_sites, <span class="at">file =</span> <span class="st">"data/patch_sites.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>patch_checklists <span class="ot">&lt;-</span> patch_observations <span class="sc">%&gt;%</span> </span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(observation_date, observation_time, taxon_order) <span class="sc">%&gt;%</span> </span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(checklist_id, observation_date, effort_distance_km, </span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>           duration_min, locality) <span class="sc">%&gt;%</span> </span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">n_species =</span> <span class="fu">n_distinct</span>(common_name)) <span class="sc">%&gt;%</span> </span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">link =</span> <span class="fu">str_replace_all</span>(<span class="fu">str_replace_all</span>(<span class="fu">tolower</span>(locality), <span class="st">"[^[:alnum:]| ]"</span>, <span class="st">""</span>), <span class="st">" "</span>, <span class="st">"-"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'checklist_id', 'observation_date',
+'effort_distance_km', 'duration_min'. You can override using the `.groups`
+argument.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(patch_checklists, <span class="at">file =</span> <span class="st">"data/patch_checklists.RData"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 

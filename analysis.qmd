@@ -1,6 +1,8 @@
 ---
-title: "analysis"
+title: "Analysis"
 ---
+
+Please navigate to another page using the toolbar above.
 
 ```{r}
 library(renv)
@@ -232,4 +234,15 @@ patch_sites <- patch_observations %>%
   ungroup()
 
 save(patch_sites, file = "data/patch_sites.RData")
+```
+
+```{r}
+patch_checklists <- patch_observations %>% 
+  arrange(observation_date, observation_time, taxon_order) %>% 
+  group_by(checklist_id, observation_date, effort_distance_km, 
+           duration_min, locality) %>% 
+  summarise(n_species = n_distinct(common_name)) %>% 
+  mutate(link = str_replace_all(str_replace_all(tolower(locality), "[^[:alnum:]| ]", ""), " ", "-"))
+
+save(patch_checklists, file = "data/patch_checklists.RData")
 ```

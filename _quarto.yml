@@ -5,9 +5,8 @@ website:
   title: "St Andrews Patch Recap 2024"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - href: patch_list.qmd
         text: Patch List
       - href: species_accounts.qmd
@@ -16,6 +15,8 @@ website:
         text: Month Accounts
       - href: site_accounts.qmd
         text: Site Accounts
+      - href: checklists.qmd
+        text: Checklists
 
 format:
   html:

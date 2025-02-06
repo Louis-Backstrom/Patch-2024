@@ -2,8 +2,10 @@
 title: "About"
 ---
 
-About this site
+**This website is a summary of my efforts to see as many birds as possible in St Andrews during 2024. All of my sightings were recorded on [eBird](https://ebird.org).**
 
-```{r}
-1 + 1
-```
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+To view the code for this website, see the GitHub repository at <https://github.com/Louis-Backstrom/Patch-2024>.

@@ -1,0 +1,28 @@
+---
+title: "All 2024 Patch Checklists"
+---
+
+```{r, echo = FALSE, output = FALSE}
+library(tidyverse)
+library(DT)
+
+load("data/patch_checklists.RData")
+```
+
+```{r, echo = FALSE}
+datatable(
+  patch_checklists %>% 
+    rowid_to_column("rank") %>% 
+    mutate(checklist_id = paste0("<a href=\"https://ebird.org/checklist/",
+                                     checklist_id, "\">", checklist_id, "</a>"),
+           locality = paste0("<a href=\"site_accounts.html#",
+                                link, "\">", locality, "</a>")) %>% 
+    select(-link), 
+  options = list(pageLength = nrow(patch_checklists)),
+  autoHideNavigation = TRUE,
+  escape = FALSE,
+  rownames = FALSE,
+  colnames = c("", "Checklist ID", "Date", "Distance (km)", "Duration (min)",
+               "Location", "Number of Species"),
+)
+```

@@ -3028,7 +3028,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Blue Tit"), patch_bou
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. The most abundant tit on the patch, present all throughout town with the exception of most of the [golf course](site_accounts.qmd#st-andrews-links) and [Out Head](site_accounts.qmd#out-head). Somewhat more frequently encountered during winter than summer, but this is probably mostly due to changes in detectability rather than movement of birds in or out of the patch. Birds bred on the patch, with chicks seen at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [16th of June](https://ebird.org/checklist/S181926538) and in [Lumbo Den](site_accounts.qmd#lumbo-den) on the [13th of July](https://ebird.org/checklist/S186736152). The highest count of the year was of 21 birds, seen around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [1st of February](https://ebird.org/checklist/S160320463).
 
 ## Great Tit
 
@@ -3057,7 +3057,7 @@ mapview(list(filter(patch_tracks, common_name == "Great Tit"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Somewhat less abundant than [Eurasian Blue Tit](species_accounts.qmd#eurasian-blue-tit), but still commmon and widespread on the patch, and recorded regularly in all months of the year (although somewhat less frequently during summer). Birds bred on the patch, with nesting behaviour observed on the path between [Swilken Burn and Balgove Bay](site_accounts.qmd#swilken-burn-to-balgove-bay) on the [4th of May](https://ebird.org/checklist/S171853902) and singing birds heard in several other locations around the patch. The highest count for the year came on the [17th of February](https://ebird.org/checklist/S161769280), when 12 birds were observed along the [Lade Braes](site_accounts.qmd#lade-braes).
 
 ## Eurasian Skylark
 
@@ -3086,7 +3086,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Skylark"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. A familiar sight in open habitats around town, and a distinctive breeder on the patch owing to its wonderful display flights given throughout spring and summer. Recorded mostly during the breeding season, with singing birds first heard on the [25th of March](https://ebird.org/checklist/S165910181) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) and peak activity during May, when singing birds were observed all throughout town in suitable breeding habitat. Most birds stopped singing by the end of July, after which birds were seen quite regularly moving through town during the autumn passage (with a high count of 31 birds over [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [10th of October](https://ebird.org/checklist/S198189447)); a few birds remained on the patch through winter.
 
 ## Sedge Warbler
 
@@ -3115,7 +3115,7 @@ mapview(list(filter(patch_tracks, common_name == "Sedge Warbler"), patch_boundar
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare summer migrant. One of the last summer migrants to arrive, and one of the scarcest. First recorded on the [2nd of May](https://ebird.org/checklist/S171452781) at [Out Head](site_accounts.qmd#out-head), with territories (mostly identified by singing birds) noted in at least ten different locations around town throughout summer. Also one of the earliest migrants to depart, with the final record for the year coming on the [17th of August](https://ebird.org/checklist/S191760690) at [Out Head](site_accounts.qmd#out-head).
 
 ## Bank Swallow
 
@@ -3144,7 +3144,7 @@ mapview(list(filter(patch_tracks, common_name == "Bank Swallow"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. The least abundant of the three Hirundines to breed on the patch, but still a familiar sight around town, especially along the coast from [Out Head](site_accounts.qmd#out-head) to the [Coastal Path](site_accounts.qmd#coastal-path-from-st-andrews); breeding was noted at both [Out Head](site_accounts.qmd#out-head) and [The Scores](site_accounts.qmd#the-scores). An early arriver on the patch, with the first record of the year on the [30th of March](https://ebird.org/checklist/S166447977) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond); numbers built throughout spring to a high count of 16 birds at [East Sands](site_accounts.qmd#east-sands) on the [11th of May](https://ebird.org/checklist/S173397869). Fairly early to depart, with the final record this year on the [25th of August](https://ebird.org/checklist/S192680096) along [The Scores](site_accounts.qmd#the-scores).
 
 ## Barn Swallow
 
@@ -3173,7 +3173,7 @@ mapview(list(filter(patch_tracks, common_name == "Barn Swallow"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. Abundant during summer throughout the patch, with records in all parts of town. First arrived on the [19th of April](https://ebird.org/checklist/S169258999), when two birds were seen at the [Aquarium](site_accounts.qmd#aquarium-viewpoint). Bred locally, with nesting behaviour seen at [East Sands](site_accounts.qmd#east-sands) on the [11th of May](https://ebird.org/checklist/S173397869) and young at the [Aquarium](site_accounts.qmd#aquarium-viewpoint) on the [21st of July](https://ebird.org/checklist/S188014700). Late to leave in the autumn, with the final record coming on the [13th of October](https://ebird.org/checklist/S198660998), when four birds were seen at [North Haugh Pond](site_accounts.qmd#north-haugh-pond).
 
 ## Western House-Martin
 
@@ -3202,7 +3202,7 @@ mapview(list(filter(patch_tracks, common_name == "Western House-Martin"), patch_
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. Regularly seen throughout town, and more prone to flocking than the other two Hirundines, with a peak count of 232 birds seen on the [8th of August](https://ebird.org/checklist/S190693341) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond). First arrived on the [21st of April](https://ebird.org/checklist/S169584684), when two birds were seen along the [Coastal Path](site_accounts.qmd#coastal-path-from-st-andrews)); the final record for the year was on the [30th of September](https://ebird.org/checklist/S196995430), when 16 birds were seen by [North Haugh Pond](site_accounts.qmd#north-haugh-pond). Birds probably bred in several locations around the patch, but the only nests seen this year were around [David Russell Apartments](site_accounts.qmd#david-russell-apartments-to-swilken-burn).
 
 ## Willow Warbler
 
@@ -3231,7 +3231,7 @@ mapview(list(filter(patch_tracks, common_name == "Willow Warbler"), patch_bounda
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. Although less abundant than [Common Chiffchaff](species_accounts.qmd#common-chiffchaff), with which it regularly co-occurred, nevertheless a common sight and sound around town during the breeding season, especially in the woods around the Balgove estate. Birds arrived on the patch in mid-April, with the first record on [Watson Avenue](site_accounts.qmd#watson-avenue) on the [13th](https://ebird.org/checklist/S168253665); the species remained present until the end of August, with a final record on the [26th of August](https://ebird.org/checklist/S192816609) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond). Birds bred locally on the patch, with singing birds heard in many locations around town. 
 
 ## Common Chiffchaff
 
@@ -3260,7 +3260,7 @@ mapview(list(filter(patch_tracks, common_name == "Common Chiffchaff"), patch_bou
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. One of the most common songbirds during the summer months, being found all across town in trees and bushes. One of the first migrants to return, with the first record on the [8th of March](https://ebird.org/checklist/S164063094) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond); similarly late to depart, with a final regular record on the [24th of October](https://ebird.org/checklist/S200056796). Two records at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) in late December (and lingering into early 2025) probably referred to an overwintering individual. Birds bred locally on the patch, with singing birds heard in many locations around town and food carrying seen on two separate occasions along the [Lade Braes](site_accounts.qmd#lade-braes).
 
 ## Long-tailed Tit
 
@@ -3289,7 +3289,7 @@ mapview(list(filter(patch_tracks, common_name == "Long-tailed Tit"), patch_bound
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. A familiar sight throughout town, often seen in small family flocks numbering up to a dozen individuals, with their presence typically first betrayed by their high-pitched calls. The highest count for the year was of 18 birds (across two flocks) around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [2nd of November](https://ebird.org/checklist/S201073318). The only evidence of breeding on the patch was a bird carrying nesting material on [John Knox Road](site_accounts.qmd#john-knox-road) on the [23rd of April](https://ebird.org/checklist/S169902735).
 
 ## Eurasian Blackcap
 
@@ -3318,7 +3318,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Blackcap"), patch_bou
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common summer migrant. Widespread throughout town during the summer months, more often heard than seen thanks to its distinctive song. The first record of the year was of an overwintering individual seen on [Saint Leonard's Road](site_accounts.qmd#saint-leonards-road) on the [13th of January](https://ebird.org/checklist/S158757516); birds properly arrived on the patch in late March, with the first returning bird seen at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [29th](https://ebird.org/checklist/S166358473). The species bred on the patch, with singing birds heard in several locations and a recently fledged bird seen at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [20th of July](https://ebird.org/checklist/S187906485). Following breeding, birds began to depart through August and into autumn, with a final record for the year on the [10th of October](https://ebird.org/checklist/S198189447) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond).
 
 ## Greater Whitethroat
 
@@ -3347,7 +3347,7 @@ mapview(list(filter(patch_tracks, common_name == "Greater Whitethroat"), patch_b
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon summer migrant. A late arriver in the spring, with the first record on the [2nd of May](https://ebird.org/checklist/S171452781) (comprising two birds seen at the [Out Head](site_accounts.qmd#out-head) grass dump). Similarly early to leave in the autumn, with the final record for the year on the [26th of August](https://ebird.org/checklist/S192816609) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) (likely a migrating bird, given this species' absence around the pond during the summer). Birds bred in numerous locations around the patch, with  most breeding records referring to singing birds but a couple of sightings of adults carrying food - one along [West Sands](site_accounts.qmd#west-sands) on the [12th of July](https://ebird.org/checklist/S186646074), and the other on [Balone Steading](site_accounts.qmd#balone-steading) on the [13th](https://ebird.org/checklist/S186743403).
 
 ## Goldcrest
 
@@ -3376,7 +3376,7 @@ mapview(list(filter(patch_tracks, common_name == "Goldcrest"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Probably somewhat more widespread and abundant than records suggest, given the species' unobtrusive nature and small size. Like [Coal Tit](species_accounts.qmd#coal-tit), favours conifers woods around town, where it tends to remain high in the treetops, with its presence often only betrayed by its call or song. Probably bred locally, with singing birds heard in several locations around town during spring and summer. 
 
 ## Eurasian Treecreeper
 
@@ -3405,7 +3405,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Treecreeper"), patch_
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon resident. Another relatively cryptic resident songbird, with its presence generally identified by its high-pitched call. Favours tall woodlands, and often seen as part of mixed feeding flocks comprising species such as [Coal Tit](species_accounts.qmd#coal-tit) and [Goldcrest](species_accounts.qmd#goldcrest).
 
 ## Eurasian Wren
 
@@ -3434,7 +3434,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Wren"), patch_boundar
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Abundant in all habitats throughout town, usually seen in small numbers but occasionally in little flocks or family groups; the highest count of the year was of 16 birds spread along the [Lade Braes](site_accounts.qmd#lade-braes) on the [15th of June](https://ebird.org/checklist/S181552428). Bred locally, with singing birds heard in many locations around town and chicks seen on two occasions along the [Lade Braes](site_accounts.qmd#lade-braes).
 
 ## White-throated Dipper
 
@@ -3463,7 +3463,7 @@ mapview(list(filter(patch_tracks, common_name == "White-throated Dipper"), patch
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare resident. Like [Common Kingfisher](species_accounts.qmd#common-kingfisher), this species' status on the patch is somewhat perplexing. Birds seemingly disappeared from their usual haunts along the [Lade Braes](site_accounts.qmd#lade-braes) during the summer months, before returning again in autumn, suggesting that they may breed elsewhere (perhaps further up the Kinness Burn)? Nevertheless, a reliable sight along the Burn in the cooler months of the year, with one or two birds usually present (and a high count of four birds seen on the [21st of January](https://ebird.org/checklist/S159430616)).
 
 ## European Starling
 
@@ -3492,7 +3492,7 @@ mapview(list(filter(patch_tracks, common_name == "European Starling"), patch_bou
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Regularly seen all throughout the patch, particularly favouring the open habitat in the north of town, and the urban centre of town itself. Birds bred in several locations around the patch, with a nest seen on [The Scores](site_accounts.qmd#the-scores) on the [19th of May](https://ebird.org/checklist/S175586519), and birds carrying food seen at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [same day](https://ebird.org/checklist/S175521801) and near [David Russell Apartments](site_accounts.qmd#david-russell-apartments-to-swilken-burn) on the [24th of May](https://ebird.org/checklist/S176756036). Often seen in large flocks in excess of 50 birds, with the highest count of the year being 150 birds at the [Aquarium](site_accounts.qmd#aquarium-viewpoint) on the [10th of February](https://ebird.org/checklist/S161102987) during a storm. 
 
 ## Mistle Thrush
 
@@ -3521,7 +3521,7 @@ mapview(list(filter(patch_tracks, common_name == "Mistle Thrush"), patch_boundar
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common winter migrant. Although present on the patch in almost every month of the year, probably better described as a winter migrant given its scarcity during spring and summer. Seen in various locations around town throughout the winter, especially around [North Haugh Pond](site_accounts.qmd#north-haugh-pond). Most records were of single birds or small flocks, with the largest count by far being 35 birds at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [24th of November](https://ebird.org/checklist/S203440691), during a small fall of winter thrushes on the patch. 
 
 ## Song Thrush
 
@@ -3550,7 +3550,7 @@ mapview(list(filter(patch_tracks, common_name == "Song Thrush"), patch_boundary)
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. When singing, readily detectable (particularly given its tendency to sing from the tops of tall trees), but otherwise a relatively shy inhabitant of gardens and woodland around town. Bred in several locations around town, with recently fledged young seen at [Out Head](site_accounts.qmd#out-head) on the [26th of May](https://ebird.org/checklist/S177266308) and at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [4th of June](https://ebird.org/checklist/S179408162). Unlike the other thrushes, mostly seen in small numbers rather than flocks, with the highest count being of just seven birds (at Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [11th of June](https://ebird.org/checklist/S180849711)).
 
 ## Redwing
 
@@ -3579,7 +3579,7 @@ mapview(list(filter(patch_tracks, common_name == "Redwing"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common winter migrant. One of the most distinctive winter migrants on the patch, thanks to its high-pitched flight call and large flocks occasionally seen on migration. The final record for the spring came on the [3rd of April](https://ebird.org/checklist/S167016467) when two birds were seen at the [Observatory](site_accounts.qmd#st-andrews-observatory); birds were not seen again until early October, with the first autumn record on the [9th](https://ebird.org/checklist/S198082343) at the same location. Although most counts were relatively low (usually less than ten birds), weather conditions on the morning of the [5th of November](https://ebird.org/checklist/S201454703) led to a count of 462 birds flying over the [Aquarium](site_accounts.qmd#aquarium-viewpoint) over the course of an hour and a half.
 
 ## Eurasian Blackbird
 
@@ -3608,7 +3608,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Blackbird"), patch_bo
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. One of the most familiar birds throughout town, being resident in gardens as well as more natural habitat, and heard singing throughout the day during spring and summer. Numbers augmented during autumn and winter by birds from further afield; the highest count for the year was of 27 birds along the [Lade Braes](site_accounts.qmd#lade-braes) on the [23rd of November](https://ebird.org/checklist/S203361006). Birds bred on the patch, with singing birds heard in many locations around town and a fledgling seen by [Lade Braes](site_accounts.qmd#lade-braes) on the [13th of July](https://ebird.org/checklist/S186733064).
 
 ## Fieldfare
 
@@ -3637,7 +3637,7 @@ mapview(list(filter(patch_tracks, common_name == "Fieldfare"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare winter migrant. Distinctly less common than the other thrushes on the patch, with just a handful of records throughout the colder months of the year. Most records came from around [North Haugh Pond](site_accounts.qmd#north-haugh-pond), including the highest count of the year (67 birds on the [24th of November](https://ebird.org/checklist/S203440691), the first record of the autumn). 
 
 ## European Robin
 
@@ -3666,7 +3666,7 @@ mapview(list(filter(patch_tracks, common_name == "European Robin"), patch_bounda
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. As with [Eurasian Blackbird](species_accounts.qmd#eurasian-blackbird), numbers on the patch bolstered in winter by the arrival of birds from further afield, but still very common throughout spring and summer. Bred on the patch, with fledglings seen in four different locations around town, and further breeding evidence and many other sites in addition. 
 
 ## Common Redstart
 
@@ -3695,7 +3695,7 @@ mapview(list(filter(patch_tracks, common_name == "Common Redstart"), patch_bound
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare visitor. One of the best birds of the year, with an adult male found in a garden on [Watson Avenue](site_accounts.qmd#watson-avenue) on the [12th of April](https://ebird.org/checklist/S168253583), probably a brief stopover on its migration north.
 
 ## European Stonechat
 
@@ -3724,7 +3724,7 @@ mapview(list(filter(patch_tracks, common_name == "European Stonechat"), patch_bo
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon resident. Mostly restricted to the scrubby habitat of the [golf course](site_accounts.qmd#st-andrews-links) and [West Sands](site_accounts.qmd#west-sands), with a handful of sightings elsewhere (including a couple on the field behind [North Haugh Pond](site_accounts.qmd#north-haugh-pond)). Usually seen individually or in small family groups, with the highest count of the year comprising six birds on [West Sands](site_accounts.qmd#west-sands) on the [21st of July](https://ebird.org/checklist/S188019032). Birds bred locally, with fledglings observed in family groups between May and July on the [golf course](site_accounts.qmd#st-andrews-links) and along [West Sands](site_accounts.qmd#west-sands).
 
 ## Northern Wheatear
 
@@ -3753,7 +3753,7 @@ mapview(list(filter(patch_tracks, common_name == "Northern Wheatear"), patch_bou
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare passage visitor. Only seen twice this year, once in spring (two birds on the [6th of May](https://ebird.org/checklist/S172362952) at [Out Head](site_accounts.qmd#out-head)) and once in autumn (one bird on the [11th of August](https://ebird.org/checklist/S190993291) at [North Haugh Pond](site_accounts.qmd#north-haugh-pond)). Probably more frequent on the patch than these records suggest, particularly at [Out Head](site_accounts.qmd#out-head) where there is extensive suitable passage habitat and birds were recorded on several other occasions throughout the year by other observers.
 
 ## Bohemian Waxwing
 
@@ -3782,7 +3782,7 @@ mapview(list(filter(patch_tracks, common_name == "Bohemian Waxwing"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare visitor. Despite the influx of birds into Britain in late 2023, by the start of 2024 only a relatively small number of birds remained in Fife, with just one flock seen in St Andrews this year - a small group of seven birds right on the edge of the patch near [Balgove Bay](site_accounts.qmd#swilken-burn-to-balgove-bay) on the [23rd of February](https://ebird.org/checklist/S162613053). 
 
 ## Dunnock
 
@@ -3811,7 +3811,7 @@ mapview(list(filter(patch_tracks, common_name == "Dunnock"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Ubiquitous throughout town in most habitats, easily detected by both its call and song despite typically skulking in dense vegetation. Usually seen in small numbers, with a high count of just 10 birds (along the [Lade Braes](site_accounts.qmd#lade-braes) on the [15th of June](https://ebird.org/checklist/S181552428)). Bred all across the patch, with adults seen carrying food in a couple of locations and birds heard singing in many more throughout spring and summer. 
 
 ## House Sparrow
 
@@ -3840,7 +3840,7 @@ mapview(list(filter(patch_tracks, common_name == "House Sparrow"), patch_boundar
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Found all across town, mostly around colonies with the odd record of a wandering bird elsewhere. At colonies, generally seen in flocks numbering in the dozens, with a high count of 34 birds (along the [Lade Braes](site_accounts.qmd#lade-braes) on the [15th of November](https://ebird.org/checklist/S202536432)). Surprisingly few breeding records, but seen carrying nesting material several times at [East Sands](site_accounts.qmd#east-sands) during May, and no doubt bred successfully in the other colonies throughout the patch too. 
 
 ## Eurasian Tree Sparrow
 
@@ -3869,7 +3869,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Tree Sparrow"), patch
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare resident. Distinctly scarcer than [House Sparrow](species_accounts.qmd#house-sparrow), with only a handful of colonies around the patch, all in hedgerows on the outskirts of town. These colonies are also generally smaller in size than those of [House Sparrow](species_accounts.qmd#house-sparrow), with the highest count recorded in the year only 17 birds (on the [11th of August](https://ebird.org/checklist/S191044909), in the colony between [Swilken Burn and Balgove Bay](site_accounts.qmd#swilken-burn-to-balgove-bay)). 
 
 ## Gray Wagtail
 
@@ -3898,7 +3898,7 @@ mapview(list(filter(patch_tracks, common_name == "Gray Wagtail"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon resident. Mostly restricted to aquatic habitats around town (particularly along the [Lade Braes](site_accounts.qmd#lade-braes) and by the coastline), but also often seen flying over, with its presence given away by its distinctive flight call and deeply undulating flight style. Birds bred locally on the patch, with a fledgling seen on [Lade Braes](site_accounts.qmd#lade-braes) on the [1st of August](https://ebird.org/checklist/S189792709). Mostly seen individually, with a couple of records of multiple birds at a time and a high count of just four birds (at the [Aquarium](site_accounts.qmd#aquarium-viewpoint) on the [7th of November](https://ebird.org/checklist/S201644875)).
 
 ## White Wagtail
 
@@ -3927,7 +3927,7 @@ mapview(list(filter(patch_tracks, common_name == "White Wagtail"), patch_boundar
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Seen throughout the patch, being only really absent from the fields and farmlands south of town. Most common near the coast from [Balgove Bay](site_accounts.qmd#balgove-bay-east) to [Maiden Rock](site_accounts.qmd#maiden-rock), especially along [West Sands](site_accounts.qmd#west-sands) and around the [Aquarium](site_accounts.qmd#aquarium-viewpoint). Birds bred on the patch, with fledglings seen at several sites between May and July. Throughout most of the year generally seen in small numbers, but post-breeding flocks (likely involving birds from outside the patch as well) form in August and September, the largest this year comprising 62 birds seen near [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [16th of August](https://ebird.org/checklist/S191681336). The vast majority of records of this species refer to the local British (Pied) *yarrellii* subspecies, but continental *alba* birds were seen at [Out Head](site_accounts.qmd#out-head) on the [21st of April](https://ebird.org/checklist/S169634404).
 
 ## Meadow Pipit
 
@@ -3956,7 +3956,7 @@ mapview(list(filter(patch_tracks, common_name == "Meadow Pipit"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Present throughout the year in open habitat across the patch, although less abundant (and probably less detectable) during winter. Birds bred throughout the patch, with singing birds heard in several locations and birds seen carrying food at [North Haugh Pond](site_accounts.qmd#north-haugh-pond), [Out Head](site_accounts.qmd#out-head), and [West Sands](site_accounts.qmd#west-sands). Usually seen in small numbers, with occasional flocks of a dozen birds forming throughout the year, the largest comprising 14 birds at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [21st of March](https://ebird.org/checklist/S165493352).
 
 ## Rock Pipit
 
@@ -3985,7 +3985,7 @@ mapview(list(filter(patch_tracks, common_name == "Rock Pipit"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common winter migrant. Although present throughout almost all of the year, best described as a winter migrant to the patch given the disappearance of birds from their regular haunts along the coastline during spring and much of summer. Exclusively coastal, and mostly restricted to the rocky coastline from the [Aquarium](site_accounts.qmd#aquarium-viewpoint) to [East Sands](site_accounts.qmd#east-sands). Not especially abundant, with the highest count of the year just 9 (by the [Aquarium](site_accounts.qmd#aquarium-viewpoint) on the [1st of December](https://ebird.org/checklist/S204162593)).
 
 ## Common Chaffinch
 
@@ -4014,7 +4014,7 @@ mapview(list(filter(patch_tracks, common_name == "Common Chaffinch"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. One of the most common finches around town, seen in just about every habitat although most common in wooded habitats including parks and gardens. Birds bred locally, with singing birds heard all throughout the patch in spring and summer. Somewhat less prone to flocking than other finches, with the highest count recorded this year only 18 (comprising singing birds spread out along the [Lade Braes](site_accounts.qmd#lade-braes) on the [15th of June](https://ebird.org/checklist/S181552428)).
 
 ## Eurasian Bullfinch
 
@@ -4043,7 +4043,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Bullfinch"), patch_bo
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Often seen in small family flocks around town, especially around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) and along the [Lade Braes](site_accounts.qmd#lade-braes). Bred locally, with fledglings seen in three locations across the patch between June and August. Never in large flocks, with the highest count just 15 birds (around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [10th of February](https://ebird.org/checklist/S161074900)).
 
 ## European Greenfinch
 
@@ -4072,7 +4072,7 @@ mapview(list(filter(patch_tracks, common_name == "European Greenfinch"), patch_b
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Found throughout town, but especially common in open habitats including throughout the [golf course](site_accounts.qmd#st-andrews-links) and in the various fields and farmlands south of town. Generally seen in relatively small numbers, with the highest count this year being 17 birds in a flock near the [Sports Centre](site_accounts.qmd#st-andrews-sports-centre) on the [26th of October](https://ebird.org/checklist/S200333657).
 
 ## Eurasian Linnet
 
@@ -4101,7 +4101,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Linnet"), patch_bound
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. One of the most abundant songbirds around town, especially during the warmer months of the year when seen throughout the patch especially in open habitats. Very prone to flocking, with several records of large flocks in excess of 50 birds throughout the year, including a flock of 159 at [Out Head](site_accounts.qmd#out-head) on the [15th of August](https://ebird.org/checklist/S191558171).
 
 ## Redpoll
 
@@ -4130,7 +4130,7 @@ mapview(list(filter(patch_tracks, common_name == "Redpoll"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare visitor. Probably prone to irruptions into the patch, but only recorded three times throughout the year, all at [North Haugh Pond](site_accounts.qmd#north-haugh-pond). All records were of Lesser Redpolls (subspecies *cabaret*), but other Redpoll taxa could well occur from time to time. 
 
 ## European Goldfinch
 
@@ -4159,7 +4159,7 @@ mapview(list(filter(patch_tracks, common_name == "European Goldfinch"), patch_bo
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Probably the most abundant finch on the patch, being common all throughout town and often forming large flocks numbering in the dozens of birds. Bred in various locations around town, with the best breeding record being a nest with young found along the [Coastal Path](site_accounts.qmd#coastal-path-from-st-andrews) on the [19th of May](https://ebird.org/checklist/S175614424). Often seen in flocks, with the largest of these being 78 birds at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [3rd of October](https://ebird.org/checklist/S197371440).
 
 ## Eurasian Siskin
 
@@ -4188,7 +4188,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Siskin"), patch_bound
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon visitor. Probably not permanently resident on the patch, but rather a regular visitor, with records in most months of the year but no definitive breeding evidence (and not regular at any one site throughout the spring and summer). Mostly restricted to parts of the patch with taller trees, particularly seed-bearing conifers. The largest flock of the year comprised 50 birds, seen flying over [North Haugh Pond](site_accounts.qmd#north-haugh-pond) on the [12th of January](https://ebird.org/checklist/S158697367).
 
 ## Corn Bunting
 
@@ -4217,7 +4217,7 @@ mapview(list(filter(patch_tracks, common_name == "Corn Bunting"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare summer migrant. Only a short range migrant, with birds presumably wintering somewhere in the East Neuk. This species' presence on the patch this year marks a continuation of its' expansion across eastern Fife, with territories recorded around St Andrews for the first time. My two records came from the fields by the [A917](site_accounts.qmd#a917-between-lamond-drive-and-b9131), but a couple of other territories were mapped in other fields on the outskirts of town, with perhaps a total of half a dozen birds on the patch throughout the summer.
 
 ## Yellowhammer
 
@@ -4246,7 +4246,7 @@ mapview(list(filter(patch_tracks, common_name == "Yellowhammer"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Present throughout the year in open habitats and hedgerows on the outskirts of town, including throughout the [golf course](site_accounts.qmd#st-andrews-links). Bred throughout the patch, with singing birds heard in many locations between April and August. Usually seen in small numbers during the breeding season, but forms flocks in winter, with the largest of these being 28 birds in the [fields south of town](site_accounts.qmd#farms-between-a917-and-a915) on the [25th of February](https://ebird.org/checklist/S162862916).
 
 ## Reed Bunting
 
@@ -4275,4 +4275,4 @@ mapview(list(filter(patch_tracks, common_name == "Reed Bunting"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon resident. Present throughout the year across the patch, but remarkably unreliable at any given location. Most records from around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) and along [West Sands](site_accounts.qmd#west-sands), but still not regularly seen at either site. Birds bred on the patch, with birds heard singing at several locations between May and July. Unlike [Yellowhammer](species_accounts.qmd#yellowhammer), not prone to flocking, with never more than two birds seen at once throughout the year.
