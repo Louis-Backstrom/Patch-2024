@@ -1,0 +1,31 @@
+---
+title: "2024 Patch List"
+---
+
+```{r, echo = FALSE, output = FALSE}
+library(tidyverse)
+library(DT)
+
+load("data/patch_list.RData")
+```
+
+```{r, echo = FALSE}
+datatable(
+  patch_list %>% 
+    mutate(observation_date = paste0("<a href=\"https://ebird.org/checklist/",
+                                     checklist_id, "\">", observation_date, "</a>"),
+           scientific_name = paste0("<a href=\"", ebird_url, "\">", 
+                                    scientific_name, "</a>"),
+           common_name = paste0("<a href=\"species_accounts.html#",
+                                link, "\">", common_name, "</a>")) %>% 
+    mutate(scientific_name = paste0("<em>", scientific_name, "</em>"),
+           common_name = paste0("<b>", common_name, "</b>")) %>% 
+    select(-checklist_id, -species_code, -ebird_url, -link), 
+  options = list(pageLength = nrow(patch_list)),
+  autoHideNavigation = TRUE,
+  escape = FALSE,
+  rownames = FALSE,
+  colnames = c("", "Date", "Location", 
+               "Common Name", "Scientific Name", ""),
+)
+```

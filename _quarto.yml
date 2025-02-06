@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "St Andrews Patch Recap 2024"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: patch_list.qmd
+        text: Patch List
+      - href: species_accounts.qmd
+        text: Species Accounts
+      - href: month_accounts.qmd
+        text: Month Accounts
+      - href: site_accounts.qmd
+        text: Site Accounts
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
+  
+editor: visual
+

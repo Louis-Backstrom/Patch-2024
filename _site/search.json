@@ -1,0 +1,1535 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Patch-2024",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\nDips\nSnow Bunting (Out Head, 2nd Jan)\nEurasian Goshawk (North Haugh Meadow, 7th Feb)\n*Eurasian Goshawk (Bogward Rd, 21st Feb)\n*Brambling (Bogward Rd, 21st Feb)\nSnow Bunting (West Sands, 23rd Feb)\n*White-fronted Goose (Bogward Rd, 26th Feb)\nSnow Bunting (Out Head, 1st Mar)\nSnow Bunting (Out Head, 2nd Mar)\nSnow Bunting (Out Head, 11th Mar)\nSnow Bunting (Out Head, 26th Mar)\n*Hawfinch (Bogward Rd, 4th Apr)\n*Brambling (Bogward Rd, 4th Apr)\n*Red Crossbill (Bogward Rd, 4th Apr)\n*Merlin (Spinkie Den, 7th Apr)\n*Ring Ouzel (Bogward Rd, 13th Apr)\n*Brambling (Bogward Rd, 13th Apr)\n*Tree Pipit (Bogward Rd, 20th Apr)\n*Arctic Loon (Out Head, 22nd Apr)\nLesser Whitethroat (Out Head, 1st May)\n*Common Grasshopper Warbler (Out Head, 1st May)\n*Common Grasshopper Warbler (Out Head, 7th May)\n*Nuthatch (Bogward Rd, 12th May)\n*Lesser Whitethroat (Bogward Rd, 3rd Jun)\n*Arctic Loon (Out Head, 7th Jul)\n*Arctic Loon (The Scores, 8th Jul)\n*Tree Pipit (Bogward Rd, 15th Jul)\nLittle Tern (Out Head, 19th Jul)\nWestern Marsh Harrier (Farms between A917 and Grange Rd, 10th Aug)\n*Pomarine Jaeger (Out Head, 11th Aug)\n*Black Tern (Out Head, 11th Aug)\n*Mediterranean Gull (Out Head, 11th Aug)\n*Black Tern (Out Head, 14th Aug)\n*Whinchat (Out Head, 14th Aug)\n*Western Marsh Harrier (Bogward Rd, 22nd Aug)\n*Curlew Sandpiper (Balgove Bay, 28th Aug)\n*Lesser Whitethroat (Lade Braes, 3rd Sep)\n*Roseate Tern (Out Head, 4th Sep)\nSpotted Flycatcher (Market Street, 6th Sep)\n*Curlew Sandpiper (Balgove Bay, 11th Sep)\n*Curlew Sandpiper (Out Head, 18th Sep)\n*Hawfinch (Bogward Rd, 20th Oct)\n*Brambling (Bogward Rd, 20th Oct)\n*Eurasian Goshawk (Bogward Rd, 20th Oct)\nSnow Bunting (Out Head, 26th Oct)\n*Hawfinch (Bogward Rd, 28th Oct)\n*Red Crossbill (Bogward Rd, 28th Oct)\n*Brambling (Bogward Rd, 28th Oct)\n*Eurasian Goshawk (Bogward Rd, 28th Oct)\n*Red Crossbill (Spinkie Den, 3rd Nov)\n*Brambling (Spinkie Den, 3rd Nov)\nArctic Loon (Out Head, 5th Nov)\n*Hawfinch (Bogward Rd, 21st Nov)\n*Arctic Loon (St Andrews Aquarium, 13th Dec)"
+  },
+  {
+    "objectID": "patch_list.html",
+    "href": "patch_list.html",
+    "title": "2024 Patch List",
+    "section": "",
+    "text": "test"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "analysis",
+    "section": "",
+    "text": "library(renv)\n\nWarning: package 'renv' was built under R version 4.3.3\n\n\n\nAttaching package: 'renv'\n\n\nThe following objects are masked from 'package:stats':\n\n    embed, update\n\n\nThe following objects are masked from 'package:utils':\n\n    history, upgrade\n\n\nThe following objects are masked from 'package:base':\n\n    autoload, load, remove\n\ninstall(\"tidyverse\")\n\nThe following package(s) will be installed:\n- tidyverse [2.0.0]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing tidyverse ...                      OK [linked from cache]\nSuccessfully installed 1 package in 20 milliseconds.\n\ninstall(\"sf\")\n\nThe following package(s) will be installed:\n- sf [1.0-19]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing sf ...                             OK [linked from cache]\nSuccessfully installed 1 package in 17 milliseconds.\n\ninstall(\"CornellLabofOrnithology/auk\")\n\n- GitHub authentication credentials are not available.\n- Please set GITHUB_PAT, or ensure the 'gitcreds' package is installed.\n- See https://usethis.r-lib.org/articles/git-credentials.html for more details.\nThe following package(s) will be installed:\n- auk [CornellLabofOrnithology/auk]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing auk ...                            OK [linked from cache]\nSuccessfully installed 1 package in 50 milliseconds.\n\ninstall(\"DT\")\n\nThe following package(s) will be installed:\n- DT [0.33]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing DT ...                             OK [linked from cache]\nSuccessfully installed 1 package in 41 milliseconds.\n\ninstall(\"cowplot\")\n\nThe following package(s) will be installed:\n- cowplot [1.1.3]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing cowplot ...                        OK [linked from cache]\nSuccessfully installed 1 package in 36 milliseconds.\n\ninstall(\"mapview\")\n\nThe following package(s) will be installed:\n- mapview [2.11.2]\nThese packages will be installed into \"~/GitHub/Patch-2024/renv/library/R-4.3/x86_64-w64-mingw32\".\n\n# Installing packages --------------------------------------------------------\n- Installing mapview ...                        OK [linked from cache]\nSuccessfully installed 1 package in 50 milliseconds.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n✖ purrr::modify() masks renv::modify()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(sf)\n\nLinking to GEOS 3.11.2, GDAL 3.8.2, PROJ 9.3.1; sf_use_s2() is TRUE\n\nlibrary(auk)\n\nauk 0.8.0 is designed for EBD files downloaded after 2024-10-29. \nEBD data directory:  G:/Data/eBird/World \neBird taxonomy version:  2024\n\nlibrary(DT)\nlibrary(cowplot)\n\n\nAttaching package: 'cowplot'\n\nThe following object is masked from 'package:lubridate':\n\n    stamp\n\nlibrary(mapview)\n\n\nlocalities &lt;- read_sf(\"data/raw/pub_commcnc.shp\")\npatch_boundary &lt;- localities %&gt;% \n  filter(cc_name == \"Royal Burgh of St Andrews\") %&gt;% \n  st_transform(crs = 4326) %&gt;% \n  st_buffer(dist = 10)\n\nebird_raw &lt;- read_csv(\"data/raw/MyEBirdData.csv\")\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nRows: 71908 Columns: 23\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (13): Submission ID, Common Name, Scientific Name, Count, State/Provinc...\ndbl   (8): Taxonomic Order, Latitude, Longitude, Duration (Min), All Obs Rep...\ndate  (1): Date\ntime  (1): Time\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nebird_patch &lt;- ebird_raw %&gt;% \n  filter(year(Date) == 2024) %&gt;% \n  st_as_sf(coords = c(\"Longitude\", \"Latitude\"), crs = 4326, remove = FALSE) %&gt;% \n  filter(as.logical(st_intersects(., patch_boundary))) %&gt;% \n  st_drop_geometry()\n\nwrite_sf(patch_boundary, \"data/patch_boundary.gpkg\")\nwrite_csv(ebird_patch, \"data/patch_observations.csv\")\n\nrm(localities, ebird_raw, ebird_patch)\n\n\nrollup_key &lt;- ebird_taxonomy %&gt;% \n  mutate(report_as = if_else(category == \"species\", species_code, report_as)) %&gt;% \n  select(taxon_order, report_as) %&gt;% \n  left_join(., \n            ebird_taxonomy %&gt;% \n              select(-taxon_order),\n            by = c(\"report_as\" = \"species_code\"))\n\npatch_observations &lt;- read_csv(\"data/patch_observations.csv\") %&gt;% \n  select(\"checklist_id\" = \"Submission ID\",\n         \"taxon_order\" = \"Taxonomic Order\",\n         \"observation_count\" = \"Count\",\n         \"locality_id\" = \"Location ID\",\n         \"locality\" = \"Location\",\n         \"latitude\" = \"Latitude\",\n         \"longitude\" = \"Longitude\",\n         \"observation_date\" = \"Date\",\n         \"observation_time\" = \"Time\",\n         \"protocol\" = \"Protocol\",\n         \"duration_min\" = \"Duration (Min)\",\n         \"all_observations_reported\" = \"All Obs Reported\",\n         \"effort_distance_km\" = \"Distance Traveled (km)\",\n         \"breeding_code\" = \"Breeding Code\") %&gt;% \n  left_join(., rollup_key, by = \"taxon_order\") %&gt;% \n  drop_na(common_name)\n\nWarning: One or more parsing issues, call `problems()` on your data frame for details,\ne.g.:\n  dat &lt;- vroom(...)\n  problems(dat)\n\n\nRows: 19186 Columns: 23\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (12): Submission ID, Common Name, Scientific Name, State/Province, Coun...\ndbl   (8): Taxonomic Order, Count, Latitude, Longitude, Duration (Min), All ...\nlgl   (1): Area Covered (ha)\ndate  (1): Date\ntime  (1): Time\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\npatch_list &lt;- patch_observations %&gt;% \n  arrange(observation_date, observation_time, taxon_order) %&gt;% \n  group_by(scientific_name) %&gt;% \n  filter(row_number() == 1) %&gt;% \n  ungroup() %&gt;% \n  mutate(obs_order = row_number()) %&gt;% \n  arrange(taxon_order) %&gt;% \n  mutate(tax_order = row_number()) %&gt;% \n  arrange(observation_date, observation_time, taxon_order) %&gt;% \n  select(obs_order, observation_date, locality, common_name, \n         scientific_name, tax_order, checklist_id) %&gt;% \n  left_join(., ebird_taxonomy %&gt;% \n              select(scientific_name, species_code), \n            by = \"scientific_name\") %&gt;% \n  mutate(ebird_url = paste0(\"https://ebird.org/species/\", \n                      species_code, \"/GB-SCT-FIF\"),\n         link = str_replace_all(tolower(common_name), \" \", \"-\"))\n\nsave(patch_list, file = \"data/patch_list.RData\")\n\n\npatch_months &lt;- reduce(\n  list(\n    patch_observations %&gt;% \n      group_by(month = month(observation_date)) %&gt;% \n      summarise(n_species = n_distinct(common_name)),\n    patch_observations %&gt;% \n      select(-c(taxon_order, observation_count, breeding_code, \n                report_as, scientific_name, common_name, order, family, \n                family_common, category, report_as.y, extinct)) %&gt;% \n      distinct() %&gt;% \n      filter(all_observations_reported == 1) %&gt;% \n      group_by(month = month(observation_date)) %&gt;% \n      summarise(n_completes = n_distinct(checklist_id)),\n    patch_observations %&gt;% \n      select(-c(taxon_order, observation_count, breeding_code, \n                report_as, scientific_name, common_name, order, family, \n                family_common, category, report_as.y, extinct)) %&gt;% \n      distinct() %&gt;% \n      group_by(month = month(observation_date)) %&gt;% \n      summarise(n_days = n_distinct(observation_date),\n                sum_duration = round(sum(duration_min, na.rm = TRUE)/60, 1),\n                sum_distance = round(sum(effort_distance_km, na.rm = TRUE), 1)),\n    patch_list %&gt;% \n      group_by(month = month(observation_date)) %&gt;% \n      summarise(n_additions = n_distinct(common_name))\n  ),\n  left_join\n)\n\nJoining with `by = join_by(month)`\nJoining with `by = join_by(month)`\nJoining with `by = join_by(month)`\n\nsave(patch_months, file = \"data/patch_months.RData\")\n\n\npatch_species &lt;- reduce(\n  list(\n    patch_observations %&gt;% \n      group_by(scientific_name, common_name) %&gt;% \n      summarise(taxon_order = min(taxon_order),\n                n_records = n(),\n                n_months = n_distinct(month(observation_date)),\n                n_sites = n_distinct(locality),\n                sum_count = sum(observation_count, na.rm = TRUE),\n                max_count = max(observation_count, na.rm = TRUE)) %&gt;% \n      arrange(taxon_order),\n    patch_observations %&gt;% \n      group_by(scientific_name, common_name) %&gt;% \n      arrange(desc(observation_count)) %&gt;% \n      filter(row_number() == 1) %&gt;% \n      select(scientific_name, common_name, checklist_id),\n    patch_observations %&gt;% \n      mutate(breeding_code = word(breeding_code, 1)) %&gt;% \n      drop_na(breeding_code) %&gt;% \n      filter(breeding_code != \"F\") %&gt;% \n      mutate(breeding_code = factor(breeding_code, levels = c(\n        \"NY\", \"NE\", \"FS\", \"FY\", \"CF\", \"FL\", \"ON\", \"UN\", \"DD\", \"NB\", \"CN\",\n        \"PE\", \"B\", \"A\", \"N\", \"C\", \"T\", \"P\", \"M\", \"S7\", \"S\", \"H\"\n      ))) %&gt;% \n      group_by(scientific_name, common_name) %&gt;% \n      arrange(breeding_code) %&gt;% \n      summarise(breeding_codes = paste(unique(breeding_code), collapse = \", \"))\n  ),\n  left_join\n) %&gt;%\n  mutate(breeding_codes = replace_na(breeding_codes, \"none\"),\n         max_count = as.integer(max_count),\n         sum_count = as.integer(sum_count))\n\n`summarise()` has grouped output by 'scientific_name'. You can override using\nthe `.groups` argument.\n`summarise()` has grouped output by 'scientific_name'. You can override using\nthe `.groups` argument.\nJoining with `by = join_by(scientific_name, common_name)`\nJoining with `by = join_by(scientific_name, common_name)`\n\nsave(patch_species, file = \"data/patch_species.RData\")  \n\n\npatch_monthrrs &lt;- patch_observations %&gt;% \n  filter(all_observations_reported == TRUE) %&gt;% \n  group_by(month = month(observation_date)) %&gt;% \n  summarise(n_checklists = n_distinct(checklist_id)) %&gt;% \n  expand_grid(., common_name = unique(patch_observations$common_name)) %&gt;% \n  left_join(., patch_observations %&gt;% \n              group_by(common_name, month = month(observation_date)) %&gt;% \n              summarise(n_obs = n_distinct(checklist_id))) %&gt;% \n  mutate(n_obs = replace_na(n_obs, 0),\n         reporting_rate = n_obs / n_checklists) %&gt;% \n  left_join(., patch_list %&gt;% \n              select(common_name, scientific_name, tax_order)) %&gt;% \n  arrange(tax_order, month) %&gt;% \n  select(common_name, scientific_name, tax_order, month, n_checklists, n_obs, reporting_rate)\n\n`summarise()` has grouped output by 'common_name'. You can override using the\n`.groups` argument.\nJoining with `by = join_by(month, common_name)`\nJoining with `by = join_by(common_name)`\n\npatch_pulses &lt;- list()\n\nfor (i in 1:nrow(patch_list)) {\n  \n  rrs &lt;- filter(patch_monthrrs, common_name == pull(arrange(patch_list, tax_order), common_name)[i]) %&gt;% \n    mutate(reporting_rate = if_else(reporting_rate &gt; 1, 1, reporting_rate))\n  \n  patch_pulses[[i]] &lt;- ggplot(rrs) +\n    geom_rect(aes(xmin = month - 0.5, xmax = month + 0.5, ymin = -sqrt(reporting_rate), ymax = sqrt(reporting_rate))) +\n    scale_x_continuous(limits = c(0.5, 12.5), expand = c(0, 0), breaks = 1:12, labels = str_sub(month.name, 1, 1)) +\n    scale_y_continuous(limits = c(-1, 1), expand = c(0, 0)) +\n    theme_nothing() +\n    theme(axis.text.x = element_text(size = 10)) +\n    labs(x = NULL, y = NULL)\n  \n  rm(rrs)\n}\n\nsave(patch_pulses, file = \"data/patch_pulses.RData\")  \n\n\npatch_tracks &lt;- read_sf(\"data/raw/patch_tracks.gpkg\") %&gt;% \n  select(-Name, -Description) %&gt;% \n  full_join(., patch_observations) %&gt;% \n  drop_na(locality) %&gt;%\n  st_intersection(., patch_boundary)\n\nJoining with `by = join_by(checklist_id)`\nst_as_s2(): dropping Z and/or M coordinate\n\n\nWarning: attribute variables are assumed to be spatially constant throughout\nall geometries\n\n# add untracked observations as points from locality position\npatch_tracks &lt;- left_join(patch_observations, patch_tracks) %&gt;% \n  filter(is.na(cc_name)) %&gt;% \n  st_as_sf(coords = c(\"longitude\", \"latitude\"), crs = 4326, remove = FALSE) %&gt;% \n  select(-geom) %&gt;% \n  rename(geom = geometry) %&gt;% \n  bind_rows(patch_tracks, .)\n\nJoining with `by = join_by(checklist_id, taxon_order, observation_count,\nlocality_id, locality, latitude, longitude, observation_date, observation_time,\nprotocol, duration_min, all_observations_reported, effort_distance_km,\nbreeding_code, report_as, scientific_name, common_name, order, family,\nfamily_common, category, report_as.y, extinct)`\n\nsave(patch_tracks, file = \"data/patch_tracks.RData\")  \n\n\npatch_sites &lt;- patch_observations %&gt;% \n  select(checklist_id, locality_id, locality, latitude, longitude, \n         observation_date, observation_time, protocol, duration_min,\n         all_observations_reported, effort_distance_km) %&gt;% \n  distinct() %&gt;% \n  group_by(locality_id, locality, latitude, longitude) %&gt;% \n  summarise(n_checklists = n_distinct(checklist_id),\n            n_months = n_distinct(month(observation_date)),\n            sum_duration = sum(duration_min / 60, na.rm = TRUE),\n            sum_distance = sum(effort_distance_km, na.rm = TRUE)) %&gt;% \n  left_join(., patch_observations %&gt;% \n              group_by(locality_id) %&gt;% \n              summarise(n_species = n_distinct(common_name)),\n            by = \"locality_id\") %&gt;% \n  ungroup()\n\n`summarise()` has grouped output by 'locality_id', 'locality', 'latitude'. You\ncan override using the `.groups` argument.\n\nsave(patch_sites, file = \"data/patch_sites.RData\")"
+  },
+  {
+    "objectID": "species_accounts.html#pink-footed-goose",
+    "href": "species_accounts.html#pink-footed-goose",
+    "title": "Species Accounts",
+    "section": "Pink-footed Goose",
+    "text": "Pink-footed Goose\n114 observations in 8 months across 27 sites. 12900 total counted, high count 1406. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter migrant and passage visitor. Most abundant during migration, particularly the southward autumn migration period from September to November, but also present throughout winter and spring. Last spring record on the 11th of April at North Haugh Pond, first autumn record on the 24th of September at the same location. Found throughout the patch, typically as flyover flocks. Often roosts on the Eden Estuary, and birds sometimes feed and roost in the field south and west of town."
+  },
+  {
+    "objectID": "species_accounts.html#brant",
+    "href": "species_accounts.html#brant",
+    "title": "Species Accounts",
+    "section": "Brant",
+    "text": "Brant\n39 observations in 11 months across 3 sites. 583 total counted, high count 44. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter migrant, with a few out-of-season records. Last spring record on the 4th of May, first autumn record on the 29th of September, with summer records on the 17th of June and 27th of August. Nearly exclusively found in Balgove Bay, with one record at the Aquarium on the 7th of December. The Balgove Bay flock reached a peak size of 44 birds (on the 30th of March), nearly all birds being of the pale-bellied hrota subspecies, with one dark-bellied bernicla bird seen every now and then."
+  },
+  {
+    "objectID": "species_accounts.html#barnacle-goose",
+    "href": "species_accounts.html#barnacle-goose",
+    "title": "Species Accounts",
+    "section": "Barnacle Goose",
+    "text": "Barnacle Goose\n9 observations in 4 months across 4 sites. 281 total counted, high count 132. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage visitor, with one out-of-season record. First record in the autumn passage on the 26th of September at the Aquarium, with further records throughout the following couple of months until the final record at Out Head on the 10th of November. One summer record of 2 birds at Balgove Bay on the 19th of May. Most records involved flyover flocks of a couple dozen birds at a time, with birds typically coming in off the North Sea."
+  },
+  {
+    "objectID": "species_accounts.html#canada-goose",
+    "href": "species_accounts.html#canada-goose",
+    "title": "Species Accounts",
+    "section": "Canada Goose",
+    "text": "Canada Goose\n13 observations in 4 months across 9 sites. 234 total counted, high count 56. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage visitor, with one out-of-season record. First record in the autumn passage on the 13th of August at home, with further records throughout the following few months until the final record at the Aquarium on the 5th of November. One summer (or early passage) record of 18 birds over North Haugh Pond on the 5th of June. Most records involved flyover flocks of a few dozen birds at a time at various locations around town."
+  },
+  {
+    "objectID": "species_accounts.html#mute-swan",
+    "href": "species_accounts.html#mute-swan",
+    "title": "Species Accounts",
+    "section": "Mute Swan",
+    "text": "Mute Swan\n24 observations in 8 months across 4 sites. 57 total counted, high count 21. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon visitor to the patch throughout the year. Records typically involving single birds, with a couple of flocks seen on the Eden Estuary from Out Head, peaking at 21 birds on the 15th of June. Occurrence generally sporadic, with the exception of a lone immature bird which arrived at North Haugh Pond on the 29th of November and remained through to the end of the year."
+  },
+  {
+    "objectID": "species_accounts.html#whooper-swan",
+    "href": "species_accounts.html#whooper-swan",
+    "title": "Species Accounts",
+    "section": "Whooper Swan",
+    "text": "Whooper Swan\n7 observations in 4 months across 4 sites. 75 total counted, high count 21. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage visitor, mostly during late autumn. Only one record during the northward spring migration, with a flock of 4 birds seen distantly off the Aquarium on the 3rd of March; half a dozen records during the autumn migration, beginning on the 13th of October at Balgove Bay and culminating on the 24th of December at the same location. Most records pertaining to small flocks (less than two dozen birds) either flying over town or resting on the Eden Estuary."
+  },
+  {
+    "objectID": "species_accounts.html#common-shelduck",
+    "href": "species_accounts.html#common-shelduck",
+    "title": "Species Accounts",
+    "section": "Common Shelduck",
+    "text": "Common Shelduck\n63 observations in 12 months across 7 sites. 2701 total counted, high count 284. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident, mostly localised to the Eden Estuary. Numbers varied throughout the year, with the highest counts at Balgove Bay during late winter and early autumn, peaking at 284 birds on the 17th of February. Bred nearby, if not on the patch, with a few chicks seen on the 17th of June. Outside of the Eden Estuary, a couple of records of birds flying past St Andrews Bay, probably on their way to or from the Estuary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-wigeon",
+    "href": "species_accounts.html#eurasian-wigeon",
+    "title": "Species Accounts",
+    "section": "Eurasian Wigeon",
+    "text": "Eurasian Wigeon\n40 observations in 9 months across 5 sites. 2475 total counted, high count 234. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter migrant, mostly localised to the Eden Estuary. Last record for the spring on the 19th of May, and the first record for the autumn on the 28th of September. Peak numbers during the coldest months of the year in Balgove Bay, with a high count of 234 on the 14th of December. Outside of the Eden Estuary, a few records of birds in St Andrews Bay off the Aquarium, and a pair at North Haugh Pond on the 20th of November during a cold snap."
+  },
+  {
+    "objectID": "species_accounts.html#mallard",
+    "href": "species_accounts.html#mallard",
+    "title": "Species Accounts",
+    "section": "Mallard",
+    "text": "Mallard\n367 observations in 12 months across 22 sites. 4839 total counted, high count 73. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOne of the most widespread birds on the patch, found near just about any water source, as well as being often seen flying over town. Most abundant along the Lade Braes, particularly in the stretch between Dempster Terrace and Greenside Place, where 73 were counted on the 21st of January. Another flock of up to 50 birds inhabits North Haugh Pond, and there is presumably a significant amount of movement between sites around and beyond the patch. Most birds in town seem to be truly wild, but a small number of dumped domestic birds are also present in the main Lade Braes flock. Bred on the patch, with chicks seen at North Haugh Pond, Lade Braes, and Hepburn Gardens."
+  },
+  {
+    "objectID": "species_accounts.html#northern-pintail",
+    "href": "species_accounts.html#northern-pintail",
+    "title": "Species Accounts",
+    "section": "Northern Pintail",
+    "text": "Northern Pintail\n30 observations in 8 months across 2 sites. 890 total counted, high count 100. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter migrant, localised to the Eden Estuary (mostly in Balgove Bay). Last record for the spring on the 21st of April, and the first record for the autumn on the 28th of September. Typical flock size in both winter periods around 50 birds, with a high count of 100 on the 27th of November."
+  },
+  {
+    "objectID": "species_accounts.html#green-winged-teal",
+    "href": "species_accounts.html#green-winged-teal",
+    "title": "Species Accounts",
+    "section": "Green-winged Teal",
+    "text": "Green-winged Teal\n30 observations in 10 months across 4 sites. 142 total counted, high count 30. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon visitor, with records concentrated during the autumn passage season. Most reliably encountered on Balgove Bay, but even there less common than in the inner Eden Estuary at Guardbridge or Coble Shore. Most records of single birds or small flocks of less than half a dozen birds, with a high count of 30 birds on the 13th of January and again on the 27th of August. Sporadically turns up at North Haugh Pond, where a handful of birds lingered from the 29th of September through til mid November. Odd records at the Aquarium, and could probably turn up elsewhere in St Andrews Bay, or indeed anywhere on the patch with open water."
+  },
+  {
+    "objectID": "species_accounts.html#tufted-duck",
+    "href": "species_accounts.html#tufted-duck",
+    "title": "Species Accounts",
+    "section": "Tufted Duck",
+    "text": "Tufted Duck\n17 observations in 7 months across 5 sites. 40 total counted, high count 5. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor, with records mostly in spring. Most records on North Haugh Pond, with as many as 5 birds lingering between the 22nd of February and the 3rd of June. A handful of other records in St Andrews Bay (off both the Aquarium and The Scores) and on the Eden Estuary (Balgove Bay and Out Head)."
+  },
+  {
+    "objectID": "species_accounts.html#greater-scaup",
+    "href": "species_accounts.html#greater-scaup",
+    "title": "Species Accounts",
+    "section": "Greater Scaup",
+    "text": "Greater Scaup\n18 observations in 7 months across 4 sites. 233 total counted, high count 42. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare winter migrant. Much more abundant in the first winter period than the second (a common pattern across most sea duck species this year). Last record for the spring on the 22nd of April at Out Head, and the first record for the autumn on the 28th of Septmber on Balgove Bay. Most common in St Andrews Bay, especially off the Aquarium, with the a couple of records on the Eden Estuary. The highest count was of 42 birds off the Aquarium on the 20th of January."
+  },
+  {
+    "objectID": "species_accounts.html#common-eider",
+    "href": "species_accounts.html#common-eider",
+    "title": "Species Accounts",
+    "section": "Common Eider",
+    "text": "Common Eider\n224 observations in 12 months across 9 sites. 7714 total counted, high count 377. Breeding codes: FL, N, P, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Exclusively found along the coast from Balgove Bay all the way to Maiden Rock, mostly fairly close inshore. Flock sizes varied throughout the year, with the largest count on the 15th of August, a post-breeding flock on the Eden Estuary at Out Head. Birds bred on the patch, with chicks seen at Balgove Bay, the Aquarium, and The Scores."
+  },
+  {
+    "objectID": "species_accounts.html#velvet-scoter",
+    "href": "species_accounts.html#velvet-scoter",
+    "title": "Species Accounts",
+    "section": "Velvet Scoter",
+    "text": "Velvet Scoter\n35 observations in 6 months across 4 sites. 233 total counted, high count 41. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. Exclusively found in St Andrews Bay, from West Sands to East Sands, with the majority of records off the Aquarium. As with a number of other sea ducks, more abundant in the first winter period than the second; the high count for the year was of 41 birds off the Aquarium on the 6th of January (the high count in the second winter period was only 18 birds, on the 16th of November). Last record for the spring on the 17th of March, and the first record for the autumn on the 8th of October."
+  },
+  {
+    "objectID": "species_accounts.html#common-scoter",
+    "href": "species_accounts.html#common-scoter",
+    "title": "Species Accounts",
+    "section": "Common Scoter",
+    "text": "Common Scoter\n147 observations in 12 months across 9 sites. 21779 total counted, high count 1880. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Exclusively found along the coast from Balgove Bay all the way to Maiden Rock, with most records and the largest flocks off the Aquarium. Although reliably present throughout the year, more abundant in the first winter period than the second (as with several other sea duck species), with much smaller flock sizes during the summer. The highest count was of 1880 birds on the 7th of January, with the highest count during the second winter period only 600 (on the 26th of November). Although present year-round, birds do not breed locally (with summer records presumably referring to non-breeding birds that did not return to their more northerly breeding sites)."
+  },
+  {
+    "objectID": "species_accounts.html#long-tailed-duck",
+    "href": "species_accounts.html#long-tailed-duck",
+    "title": "Species Accounts",
+    "section": "Long-tailed Duck",
+    "text": "Long-tailed Duck\n96 observations in 9 months across 8 sites. 1114 total counted, high count 162. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter migrant. Exclusively found along the coast from Balgove Bay all the way to Maiden Rock, but most frequent in the western half of St Andrews Bay from Out Head to the Aquarium. Although commonly seen throughout all the cooler months of the year, much more abundant in the first winter period than the second; the highest count was of 162 birds off the Aquarium on the 13th of January (the highest count in the second winter period was only 45 birds, at Out Head on the 10th of November). Last record for the spring on the 19th of May at Out Head, and the first autumn record on the 29th of September at Balgove Bay."
+  },
+  {
+    "objectID": "species_accounts.html#common-goldeneye",
+    "href": "species_accounts.html#common-goldeneye",
+    "title": "Species Accounts",
+    "section": "Common Goldeneye",
+    "text": "Common Goldeneye\n22 observations in 6 months across 5 sites. 77 total counted, high count 22. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare winter visitor, with a couple out-of-season records. Exclusively marine, with most records either in the outer Eden Estuary or on St Andrews Bay. Last seen in the first winter period on the 24th of February, and first seen in the second winter period on the 2nd of November. Two out of season records: a flock of 22 birds (the highest count of the year) at Out Head on the 6th of May, and a smaller flock of 5 at the same location on the 21st of July."
+  },
+  {
+    "objectID": "species_accounts.html#common-merganser",
+    "href": "species_accounts.html#common-merganser",
+    "title": "Species Accounts",
+    "section": "Common Merganser",
+    "text": "Common Merganser\n25 observations in 10 months across 7 sites. 80 total counted, high count 14. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon visitor, with records concentrated during the autumn post-breeding season. Mostly marine, with the majority of records on the Eden Estuary or inshore in St Andrews Bay (the only exception being a flyover bird over North Haugh Pond on the 2nd of November). First seen on the 13th of January at Balgove Bay, but most records from July to September, with a high count of 14 birds on the 6th of July at Balgove Bay. Bred somewhere nearby (probably further upstream on the River Eden), with a few chicks seen at Out Head on the 15th of June."
+  },
+  {
+    "objectID": "species_accounts.html#red-breasted-merganser",
+    "href": "species_accounts.html#red-breasted-merganser",
+    "title": "Species Accounts",
+    "section": "Red-breasted Merganser",
+    "text": "Red-breasted Merganser\n100 observations in 12 months across 8 sites. 478 total counted, high count 50. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident, more abundant during winter than summer. Exclusively found along the coast from Balgove Bay all the way to Maiden Rock, and particularly common in the outer Eden Estuary and inshore in St Andrews Bay. Most abundant in autumn, with several flocks of more than a dozen birds recorded between August and November, the largest a flock of 50 at Out Head on the 10th of November."
+  },
+  {
+    "objectID": "species_accounts.html#gray-partridge",
+    "href": "species_accounts.html#gray-partridge",
+    "title": "Species Accounts",
+    "section": "Gray Partridge",
+    "text": "Gray Partridge\n22 observations in 11 months across 6 sites. 62 total counted, high count 5. Breeding codes: P, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare resident. Found in several parts of the patch, with the total population size perhaps up to half a dozen family groups. At least one group (maybe more) inhabits St Andrews Links, another the field up behind North Haugh Pond, and a few more the fields south of town. Only ever seen in small family groups of up to 5 birds at once. Presumably bred locally, but no definitive observations (e.g. sightings of chicks) this year."
+  },
+  {
+    "objectID": "species_accounts.html#ring-necked-pheasant",
+    "href": "species_accounts.html#ring-necked-pheasant",
+    "title": "Species Accounts",
+    "section": "Ring-necked Pheasant",
+    "text": "Ring-necked Pheasant\n162 observations in 12 months across 12 sites. 332 total counted, high count 18. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Found in farmland all around the patch, with probably a mix of genuinely established feral birds and released/semi-tame birds (a few records of all-white domestic type birds support this theory). Records concentrated in and around the Balgove estate, especially around North Haugh Pond. More often recorded in spring, probably due to a combination of release timing and breeding season calling behaviour (although no definitive breeding behaviours observed). Generally recorded as single birds or small groups, with the high count of 18 birds (plus one all-white domestic type) in the field between the Strathkinness High and Low Roads on the 13th of January."
+  },
+  {
+    "objectID": "species_accounts.html#rock-pigeon",
+    "href": "species_accounts.html#rock-pigeon",
+    "title": "Species Accounts",
+    "section": "Rock Pigeon",
+    "text": "Rock Pigeon\n461 observations in 12 months across 35 sites. 4675 total counted, high count 151. Breeding codes: N.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Found all around the patch, although generally more abundant in urban parts than in rural or natural habitat. Particularly favours the cliffs and ruins along The Scores), where birds probably bred, although no direct evidence of this was observed. Generally seen in flocks of between 5 and 50 birds, with a high count of 151 on the 9th of January at North Haugh Pond."
+  },
+  {
+    "objectID": "species_accounts.html#stock-dove",
+    "href": "species_accounts.html#stock-dove",
+    "title": "Species Accounts",
+    "section": "Stock Dove",
+    "text": "Stock Dove\n154 observations in 12 months across 17 sites. 295 total counted, high count 8. Breeding codes: N, C, P.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Less frequently observed during the winter months, but this is presumably due to changes in behaviour and detectability, rather than any exodus of birds locally. Found mainly in the rural parts of the patch, particularly in the vicinity of the Balgove estate (including North Haugh Pond and St Andrews Links). Generally seen as single birds or pairs, with a couple of small flocks (the largest being of 8 birds, at North Haugh Pond on the 22nd of October and Balgove Farm on the 27th of December). A few records of pre-breeding behaviours including display and nest prospecting, but no definitive evidence of breeding (although presumably it did occur)."
+  },
+  {
+    "objectID": "species_accounts.html#common-wood-pigeon",
+    "href": "species_accounts.html#common-wood-pigeon",
+    "title": "Species Accounts",
+    "section": "Common Wood-Pigeon",
+    "text": "Common Wood-Pigeon\n842 observations in 12 months across 46 sites. 16129 total counted, high count 406. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Probably the most abundant resident species on the patch, easily observed no matter the location. Often seen in flocks of up to 100 birds at a time, with higher counts in the hundreds not particularly rare; the high count of 406 birds was a flock in the fields between Swilken Burn and Balgove Bay on the 21st of April. Rather surprisingly, no breeding behaviours observed, but birds almost certainly bred locally."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-collared-dove",
+    "href": "species_accounts.html#eurasian-collared-dove",
+    "title": "Species Accounts",
+    "section": "Eurasian Collared-Dove",
+    "text": "Eurasian Collared-Dove\n61 observations in 12 months across 15 sites. 110 total counted, high count 6. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon resident. Probably the rarest of the four pigeons on the patch, although still relatively common in the suburban parts of town, especially south of the Lade Braes. Typically seen as singles or small flocks of up to half a dozen birds. No breeding behaviours observed, but birds probably breed locally on rooftops and eaves in the more urban parts of the patch."
+  },
+  {
+    "objectID": "species_accounts.html#common-swift",
+    "href": "species_accounts.html#common-swift",
+    "title": "Species Accounts",
+    "section": "Common Swift",
+    "text": "Common Swift\n121 observations in 4 months across 30 sites. 601 total counted, high count 53. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon summer migrant. One of the last migrants to arrive in the spring, with the first record this year on the 10th of May at North Haugh Pond; similarly early to leave in the autumn, with the last record for the year on the 28th of August on Saint Leonard’s Road. Commonly seen flying overhead all throughout the patch, either as individuals or in flocks of up to several dozen birds at a time; the highest count for the year was of 53 birds over North Haugh Pond on the 20th of July. No breeding behaviours observed, although probably bred on the patch somewhere."
+  },
+  {
+    "objectID": "species_accounts.html#water-rail",
+    "href": "species_accounts.html#water-rail",
+    "title": "Species Accounts",
+    "section": "Water Rail",
+    "text": "Water Rail\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Only one record, at the start of the year - a bird calling in the reeds by Swilken Burn near North Haugh Pond on the 6th of January during a cold period. Probably underreported due to its cryptic nature, although given the scarcity of suitable habitat on the patch it is unlikely to be regular at any site locally."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-moorhen",
+    "href": "species_accounts.html#eurasian-moorhen",
+    "title": "Species Accounts",
+    "section": "Eurasian Moorhen",
+    "text": "Eurasian Moorhen\n205 observations in 12 months across 7 sites. 573 total counted, high count 13. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Regular on all the bodies of freshwater across the patch, with most of my records coming from North Haugh Pond (including the smaller pond up near Madras College) and along the Lade Braes. Not abundant at any site, with generally no more than one or two pairs on a single water body; the highest count for the year was of 13 birds at North Haugh Pond on the 1st of July, although the majority of these were young birds. Numerous breeding records at several sites around the patch."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-coot",
+    "href": "species_accounts.html#eurasian-coot",
+    "title": "Species Accounts",
+    "section": "Eurasian Coot",
+    "text": "Eurasian Coot\n35 observations in 5 months across 1 sites. 49 total counted, high count 4. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare summer visitor. A perplexing species, entirely absent (despite seemingly suitable habitat and climate conditions) for the first half of the year, before a bird turned up unexpectedly at North Haugh Pond on the 3rd of June. A second bird arrived on the 14th of June, and by the start of August they had bred on the pond, with two chicks seen with the adults on the 2nd of August. Sightings continued on the pond until the 3rd of October, after which they disappeared completely. It is unclear whether this seasonal breeding occurrence happens each year, or whether this was an isolated case unlikely to be repeated again any time soon."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-oystercatcher",
+    "href": "species_accounts.html#eurasian-oystercatcher",
+    "title": "Species Accounts",
+    "section": "Eurasian Oystercatcher",
+    "text": "Eurasian Oystercatcher\n430 observations in 12 months across 34 sites. 41258 total counted, high count 2500. Breeding codes: A, N.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Abundant on the Eden Estuary, with counts in the thousands not unusual at Balgove Bay (where a high count of 2500 birds was recorded on the 27th of November). Also common all along the coast, although typically in smaller flocks of up to 100 birds rather than the thousands present on the Estuary. No confirmed breeding records on the patch, although birds were present year-round despite a drop-off in numbers through the spring and summer."
+  },
+  {
+    "objectID": "species_accounts.html#black-bellied-plover",
+    "href": "species_accounts.html#black-bellied-plover",
+    "title": "Species Accounts",
+    "section": "Black-bellied Plover",
+    "text": "Black-bellied Plover\n22 observations in 9 months across 2 sites. 350 total counted, high count 49. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare winter visitor. Exclusively found on the Eden Estuary, with records at both Balgove Bay and Out Head. Last record for the spring on the 21st of April at Balgove Bay, with the first autumn record on the 15th of August at Out Head. Generally seen in small flocks of up to a dozen birds, with a couple of larger counts recorded, peaking at 49 on the 3rd of March."
+  },
+  {
+    "objectID": "species_accounts.html#european-golden-plover",
+    "href": "species_accounts.html#european-golden-plover",
+    "title": "Species Accounts",
+    "section": "European Golden-Plover",
+    "text": "European Golden-Plover\n8 observations in 4 months across 4 sites. 56 total counted, high count 24. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare passage visitor. Most records on the Eden Estuary, particularly Balgove Bay, with a couple of flyover flocks elsewhere in town during the autumn passage. Only one record during the spring passage, an early bird at Balgove Bay on the 24th of February. More regular during autumn, although still scarce, with a couple of singles on the Estuary during early autumn and flocks of up to two dozen birds in October and November (with the high count recorded on the 31st of October near Rufflets)."
+  },
+  {
+    "objectID": "species_accounts.html#common-ringed-plover",
+    "href": "species_accounts.html#common-ringed-plover",
+    "title": "Species Accounts",
+    "section": "Common Ringed Plover",
+    "text": "Common Ringed Plover\n29 observations in 11 months across 4 sites. 592 total counted, high count 170. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon resident. Mostly restricted to the Eden Estuary, particularly the rockier north-east shore of Balgove Bay, with a couple of records along the coast too. More records during the second half of the year, but recorded in all months except for March, despite not breeding locally. Generally seen in fairly small numbers, with occasional large flocks forming on Balgove Bay; the largest of these was 170 birds on the 24th of August."
+  },
+  {
+    "objectID": "species_accounts.html#northern-lapwing",
+    "href": "species_accounts.html#northern-lapwing",
+    "title": "Species Accounts",
+    "section": "Northern Lapwing",
+    "text": "Northern Lapwing\n27 observations in 8 months across 9 sites. 1227 total counted, high count 300. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage migrant. Despite occurring in the general region throughout the year, most records on the patch were during the extended autumn passage from June through November. Generally confined to the Eden Estuary (both Balgove Bay and Out Head), with a couple of records on fields in the north-west part of town and flyover sightings elsewhere. Numbers peaked during mid October, with a high count of 300 birds at Balgove Bay on the 19th of October."
+  },
+  {
+    "objectID": "species_accounts.html#whimbrel",
+    "href": "species_accounts.html#whimbrel",
+    "title": "Species Accounts",
+    "section": "Whimbrel",
+    "text": "Whimbrel\n9 observations in 3 months across 2 sites. 13 total counted, high count 4. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare passage migrant. Surprisingly scarce on the patch, despite plenty of suitable habitat on the Eden Estuary. Records during both the spring and autumn passage seasons, although slightly more abundant during autumn. In the spring, first recorded on the 14th of April and last on the 11th of May, with all records on Balgove Bay. In the autumn, first recorded on the 1st of August and last on the 27th, with a high count of four birds on the 17th."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-curlew",
+    "href": "species_accounts.html#eurasian-curlew",
+    "title": "Species Accounts",
+    "section": "Eurasian Curlew",
+    "text": "Eurasian Curlew\n200 observations in 12 months across 27 sites. 14438 total counted, high count 678. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. One of the most common waders on the patch; abundant on the Eden Estuary but also present along the coastline and on fields and farmland on the outskirts of town. Less abundant during spring and summer, when most birds leave the patch to breed (with only non-breeders remaining), but still recorded in good numbers throughout the year. Most abundant during winter, with a high count of 678 birds observed on the 18th of February on Balgove Bay."
+  },
+  {
+    "objectID": "species_accounts.html#bar-tailed-godwit",
+    "href": "species_accounts.html#bar-tailed-godwit",
+    "title": "Species Accounts",
+    "section": "Bar-tailed Godwit",
+    "text": "Bar-tailed Godwit\n37 observations in 11 months across 3 sites. 1083 total counted, high count 411. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. Although recorded in all but one month of the year (missing in June, alongside several other waders), probably best described as a winter visitor to the patch given the increased numbers throughout the colder months of the year. Flocks of more than 100 birds were observed at Balgove Bay and Out Head during January, February, and December, with a high count of 411 birds on the 20th of December at Out Head."
+  },
+  {
+    "objectID": "species_accounts.html#black-tailed-godwit",
+    "href": "species_accounts.html#black-tailed-godwit",
+    "title": "Species Accounts",
+    "section": "Black-tailed Godwit",
+    "text": "Black-tailed Godwit\n1 observations in 1 months across 1 sites. 11 total counted, high count 11. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare passage visitor. Despite the relative regularity of its Bar-tailed cousin on the patch, this species was recorded just once this year, a flock of 11 birds flying past Balgove Bay on the 6th of April. This is made even more perplexing by the frequency with which birds are recorded further upstream on the Eden Estuary at Guardbridge - perhaps this disparity is reflective of my bad luck, or perhaps it reflects a real microhabitat preference displayed by this species in the area?"
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-woodcock",
+    "href": "species_accounts.html#eurasian-woodcock",
+    "title": "Species Accounts",
+    "section": "Eurasian Woodcock",
+    "text": "Eurasian Woodcock\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Probably underrecorded given its cryptic nature, but only one record this year, a bird flushed from under a pine tree at North Haugh Pond on the 22nd of January."
+  },
+  {
+    "objectID": "species_accounts.html#common-snipe",
+    "href": "species_accounts.html#common-snipe",
+    "title": "Species Accounts",
+    "section": "Common Snipe",
+    "text": "Common Snipe\n5 observations in 5 months across 2 sites. 6 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare winter visitor. Probably more regular than records suggest, especially during cold snaps when birds are displaced from their regular haunts as they freeze over. A couple of records around North Haugh Pond (on the 8th of February and 8th of December), with the remainder at Balgove Bay."
+  },
+  {
+    "objectID": "species_accounts.html#red-phalarope",
+    "href": "species_accounts.html#red-phalarope",
+    "title": "Species Accounts",
+    "section": "Red Phalarope",
+    "text": "Red Phalarope\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. One of the best birds of the year, and a very unexpected record - a single bird on Balgove Bay late in the evening of the 27th of August. May well have occurred offshore later in the autumn, as is more typical for this species in Scotland, although the relative lack of storms (in comparison with 2023) meant that I did not pick any birds up."
+  },
+  {
+    "objectID": "species_accounts.html#common-sandpiper",
+    "href": "species_accounts.html#common-sandpiper",
+    "title": "Species Accounts",
+    "section": "Common Sandpiper",
+    "text": "Common Sandpiper\n5 observations in 2 months across 2 sites. 7 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare passage visitor. Only present on the patch for a couple of weeks between late July and early August, with my first record on the 23rd of July and my last on the 1st of August. All records between the Aquarium and The Scores, although could plausibly occur in suitable habitat elsewhere on the patch (such as the East Sands Harbour or further along the Coastal Path)."
+  },
+  {
+    "objectID": "species_accounts.html#common-redshank",
+    "href": "species_accounts.html#common-redshank",
+    "title": "Species Accounts",
+    "section": "Common Redshank",
+    "text": "Common Redshank\n165 observations in 11 months across 11 sites. 4322 total counted, high count 600. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter visitor. Although recorded in almost all months of the year (May being the only blank month), probably better described as a winter migrant given the dramatic increase in numbers on the patch throughout the colder half of the year. Mostly restricted to the coastline between Balgove Bay and the Coastal Path, with a couple of records around North Haugh Pond during wet periods when the meadow turns into a mire. Most abundant on the Eden Estuary, with a high count of 600 birds at Balgove Bay on the 27th of November."
+  },
+  {
+    "objectID": "species_accounts.html#lesser-yellowlegs",
+    "href": "species_accounts.html#lesser-yellowlegs",
+    "title": "Species Accounts",
+    "section": "Lesser Yellowlegs",
+    "text": "Lesser Yellowlegs\n4 observations in 2 months across 1 sites. 4 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. The best bird of the year - a first record for the patch and just the second record for Fife. Found in the evening of the 24th of July on the rocks at The Scores, and lingered at the same site for several weeks before disappearing in early August."
+  },
+  {
+    "objectID": "species_accounts.html#common-greenshank",
+    "href": "species_accounts.html#common-greenshank",
+    "title": "Species Accounts",
+    "section": "Common Greenshank",
+    "text": "Common Greenshank\n19 observations in 8 months across 7 sites. 23 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. Recorded all along the coast, from Balgove Bay to Maiden Rock, although not especially common in any one location (with the exception of a couple of lingering birds, for example in the roost along The Scores in November and December). Last recorded in spring on the 23rd of March along the Coastal Path, with the first autumn record on the 27th of August on Balgove Bay. Generally solitary, with a couple of records of two birds at several sites throughout the year."
+  },
+  {
+    "objectID": "species_accounts.html#ruddy-turnstone",
+    "href": "species_accounts.html#ruddy-turnstone",
+    "title": "Species Accounts",
+    "section": "Ruddy Turnstone",
+    "text": "Ruddy Turnstone\n98 observations in 11 months across 9 sites. 2123 total counted, high count 277. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter visitor. Exclusively coastal, with records from Balgove Bay to Maiden Rock. Last recorded in the spring on the 5th of May, with the first record in the autumn on the 23rd of July. Most frequently recorded between the Aquarium and The Scores, particularly in the high tide roosts. Although less abundant than some of the other common species, large flocks of more than one hundred birds were noted on several occasions, with the highest count being 277 birds by the Aquarium on the 10th of February during a storm."
+  },
+  {
+    "objectID": "species_accounts.html#red-knot",
+    "href": "species_accounts.html#red-knot",
+    "title": "Species Accounts",
+    "section": "Red Knot",
+    "text": "Red Knot\n32 observations in 11 months across 4 sites. 2486 total counted, high count 700. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. Exclusively coastal, with most records from the Eden Estuary (both Balgove Bay and Out Head) and a couple of records further along the coast between the Aquarium and The Scores. Last spring record on the 4th of May, with the first autumn record on the 23rd of July. Most abundant on the Eden Estuary, where flocks of several hundred birds were noted on several occasions, including a high count of 700 on the 20th of January at Out Head."
+  },
+  {
+    "objectID": "species_accounts.html#ruff",
+    "href": "species_accounts.html#ruff",
+    "title": "Species Accounts",
+    "section": "Ruff",
+    "text": "Ruff\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Although reliably recorded on the Eden Estuary during the autumn migration, just one record on the patch this year - a juvenile at Balgove Bay on the 28th of September. This is likely partly a result of missing most of September due to travel, and thus birds are probably more regular on the patch than the single record this year would suggest."
+  },
+  {
+    "objectID": "species_accounts.html#sanderling",
+    "href": "species_accounts.html#sanderling",
+    "title": "Species Accounts",
+    "section": "Sanderling",
+    "text": "Sanderling\n43 observations in 10 months across 4 sites. 1324 total counted, high count 120. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. Found along the coast from Balgove Bay to the Aquarium, with records throughout the colder months of the year. The last record in the spring was on the 6th of May at Out Head, with the first autumn record on the 17th of August at Balgove Bay. Not especially abundant, but a few records of a hundred birds or more noted, including a high count of 120 on the 7th of January at Out Head."
+  },
+  {
+    "objectID": "species_accounts.html#dunlin",
+    "href": "species_accounts.html#dunlin",
+    "title": "Species Accounts",
+    "section": "Dunlin",
+    "text": "Dunlin\n45 observations in 12 months across 5 sites. 8845 total counted, high count 1958. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter visitor. One of the most abundant waders on the patch during the winter months, with more than a thousand birds present on the Eden Estuary at times. Recorded in all months of the year, but most abundant between October and February (no counts of more than one hundred birds were recorded outside of these months). The highest count of the year was of 1958 birds, recorded on the 13th of January on Balgove Bay."
+  },
+  {
+    "objectID": "species_accounts.html#purple-sandpiper",
+    "href": "species_accounts.html#purple-sandpiper",
+    "title": "Species Accounts",
+    "section": "Purple Sandpiper",
+    "text": "Purple Sandpiper\n47 observations in 9 months across 7 sites. 357 total counted, high count 50. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter visitor. A real St Andrews specialty, with birds regularly occurring on the rocky shoreline between the Aquarium and The Scores from October through April (with a couple of out of season records also noted, and the odd bird elsewhere along the coast). Most abundant in the high tide roost at the Aquarium, with a high count of 50 birds on the 10th of February during a storm, and several other counts in excess of twenty birds recorded throughout the two winter periods."
+  },
+  {
+    "objectID": "species_accounts.html#parasitic-jaeger",
+    "href": "species_accounts.html#parasitic-jaeger",
+    "title": "Species Accounts",
+    "section": "Parasitic Jaeger",
+    "text": "Parasitic Jaeger\n10 observations in 4 months across 2 sites. 30 total counted, high count 9. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage visitor. One of the most common pelagic seabirds recorded on the patch, but still rather scarce. Only recorded during the autumn passage season, with the first record on the 28th of July and the last record on the 9th of October. Generally seen in small numbers well offshore, with a high count of just nine birds off the Aquarium on the 1st of October."
+  },
+  {
+    "objectID": "species_accounts.html#great-skua",
+    "href": "species_accounts.html#great-skua",
+    "title": "Species Accounts",
+    "section": "Great Skua",
+    "text": "Great Skua\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Only a single record this year, with one bird flying past the Aquarium on the 1st of October. As with other pelagic seabirds, probably more regular offshore in St Andrews Bay, and more likely to occur during storms with strong offshore winds."
+  },
+  {
+    "objectID": "species_accounts.html#atlantic-puffin",
+    "href": "species_accounts.html#atlantic-puffin",
+    "title": "Species Accounts",
+    "section": "Atlantic Puffin",
+    "text": "Atlantic Puffin\n4 observations in 2 months across 2 sites. 6 total counted, high count 3. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare winter visitor. Despite breeding just 25km away on the Isle of May, this species is paradoxically scarce in St Andrews Bay, with no records during the breeding season; birds seemingly avoid flying west into the Bay, opting to feed either further offshore or in the Firth of Forth. Nevertheless, several records in the latter months of the year, apparently part of a broader influx into the North Sea during this period. First recorded on the 26th of November off the Aquarium, with a high count of three birds off The Scores on the 14th of December and a final record on the 23rd of December also off the Aquarium."
+  },
+  {
+    "objectID": "species_accounts.html#black-guillemot",
+    "href": "species_accounts.html#black-guillemot",
+    "title": "Species Accounts",
+    "section": "Black Guillemot",
+    "text": "Black Guillemot\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Increasingly recorded in Fife in recent years, but still quite rare, and not at all regular in St Andrews Bay. Indeed, this was the final species added to the patch list for the year, with a single bird off the Aquarium on the 20th of December."
+  },
+  {
+    "objectID": "species_accounts.html#razorbill",
+    "href": "species_accounts.html#razorbill",
+    "title": "Species Accounts",
+    "section": "Razorbill",
+    "text": "Razorbill\n65 observations in 11 months across 7 sites. 764 total counted, high count 168. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. The most frequently encountered alcid on the patch, with records in all but one month of the year, and birds being generally fairly reliable offshore in St Andrews Bay, particularly during calm periods with flat seas. Recorded mostly from Out Head to Maiden Rock, with an unusual sighting in the Eden Estuary at Balgove Bay on the 4th of May. Most abundant during autumn, when flocks of dozens of birds were observed multiple times, including a high count of 168 off the Aquarium on the 23rd of July. Did not breed on the patch itself, but young chicks seen offshore with adults in late summer and early autumn."
+  },
+  {
+    "objectID": "species_accounts.html#dovekie",
+    "href": "species_accounts.html#dovekie",
+    "title": "Species Accounts",
+    "section": "Dovekie",
+    "text": "Dovekie\n3 observations in 2 months across 1 sites. 4 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Probably best described as a regular vagrant to the patch, with records generally coinciding with larger influxes of the species into the North Sea during winter storms. Three records this year, all in the second winter period and all off the Aquarium, with the first on the 16th of November and the last on the 21st of December."
+  },
+  {
+    "objectID": "species_accounts.html#common-murre",
+    "href": "species_accounts.html#common-murre",
+    "title": "Species Accounts",
+    "section": "Common Murre",
+    "text": "Common Murre\n57 observations in 12 months across 6 sites. 555 total counted, high count 120. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. The other regular alcid on the patch, with records in all months of the year. As with Razorbill, abundance peaked during late summer and early autumn, when post-breeding flocks with recently fledged chicks were present offshore; the high count for the year was of 120 birds on the 5th of July."
+  },
+  {
+    "objectID": "species_accounts.html#little-gull",
+    "href": "species_accounts.html#little-gull",
+    "title": "Species Accounts",
+    "section": "Little Gull",
+    "text": "Little Gull\n8 observations in 5 months across 3 sites. 99 total counted, high count 80. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Only sporadically present on the patch, with no clear seasonal pattern although probably most likely to occur during autumn migration. Seen along the coast from Out Head to The Scores, often in association with periods of strong onshore winds. Numbers generally low, with a notable high count of 80 birds in a flock off The Scores on the 26th of September."
+  },
+  {
+    "objectID": "species_accounts.html#black-legged-kittiwake",
+    "href": "species_accounts.html#black-legged-kittiwake",
+    "title": "Species Accounts",
+    "section": "Black-legged Kittiwake",
+    "text": "Black-legged Kittiwake\n62 observations in 11 months across 8 sites. 3485 total counted, high count 1900. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon summer visitor. Recorded on the patch in most months of the year, but much more abundant during summer and early autumn, with most winter records associated with storms. Exclusively coastal, with the majority of birds observed between Out Head and Maiden Rock (notwithstanding a couple of records in Balgove Bay). Although mostly observed in small numbers or flocks up to 50 birds in size, post-breeding flocks in late summer tended to be much larger, with an exceptional high count of 1900 birds off The Scores on the 26th of September."
+  },
+  {
+    "objectID": "species_accounts.html#black-headed-gull",
+    "href": "species_accounts.html#black-headed-gull",
+    "title": "Species Accounts",
+    "section": "Black-headed Gull",
+    "text": "Black-headed Gull\n282 observations in 12 months across 27 sites. 9477 total counted, high count 1003. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Abundant throughout the majority of the year, although most birds disappeared during spring and early summer to breed inland. Most frequently encountered along the coast, but nevertheless common inland and throughout town. The highest count of the year was of 1003 birds on the beach at the Aquarium on the 7th of January, part of a larger gull flock of several thousand birds."
+  },
+  {
+    "objectID": "species_accounts.html#common-gull",
+    "href": "species_accounts.html#common-gull",
+    "title": "Species Accounts",
+    "section": "Common Gull",
+    "text": "Common Gull\n125 observations in 12 months across 12 sites. 5140 total counted, high count 2300. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Although present throughout the year, much more abundant during late winter and early spring, with flocks numbering in the hundreds recorded from January to April. Primarily marine and estuarine, but the odd bird or flock recorded inland at various locations, including several records around North Haugh Pond. As with Black-headed Gull, the highest count of the year was on the 7th of January, with 2300 birds at Out Head and more further down the beach along West Sands."
+  },
+  {
+    "objectID": "species_accounts.html#european-herring-gull",
+    "href": "species_accounts.html#european-herring-gull",
+    "title": "Species Accounts",
+    "section": "European Herring Gull",
+    "text": "European Herring Gull\n1051 observations in 12 months across 49 sites. 26495 total counted, high count 2700. Breeding codes: NY, FL, ON, CN, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. One of the most abundant and frequently recorded birds on the patch, ubiquitous throughout town and in all months of the year. The highest count was of 2700 birds on the 7th of January at Out Head (part of the massive gull flock on the beach that afternoon), with several further counts of more than 100 birds recorded throughout the year. Birds bred on the patch at several locations, favouring the roofs of buildings for their nests; young chicks were seen throughout town between June and July."
+  },
+  {
+    "objectID": "species_accounts.html#great-black-backed-gull",
+    "href": "species_accounts.html#great-black-backed-gull",
+    "title": "Species Accounts",
+    "section": "Great Black-backed Gull",
+    "text": "Great Black-backed Gull\n188 observations in 12 months across 15 sites. 425 total counted, high count 7. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon resident. Frequently recorded all along the coast from Balgove Bay to Maiden Rock (with a handful of records at inland sites in addition), but never abundant, with a high count of just seven birds (noted three times throughout the year). Most reliable at the Aquarium, where one or two birds almost always present on the rocks, and others often seen out to sea. Did not breed on the patch, with the closest breeding birds probably on the Isle of May."
+  },
+  {
+    "objectID": "species_accounts.html#lesser-black-backed-gull",
+    "href": "species_accounts.html#lesser-black-backed-gull",
+    "title": "Species Accounts",
+    "section": "Lesser Black-backed Gull",
+    "text": "Lesser Black-backed Gull\n191 observations in 10 months across 26 sites. 426 total counted, high count 13. Breeding codes: FL, ON.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon summer migrant. Not quite as ubiquitous as Herring Gull, but nevertheless a familiar site during the warmer months of the year, and the other species of gull to breed on the patch (with similar habits to the former). First recorded on the 17th of February at the Aquarium, with the first evidence of breeding on the 1st of June and a final record for the year on the 10th of November at Out Head."
+  },
+  {
+    "objectID": "species_accounts.html#iceland-gull",
+    "href": "species_accounts.html#iceland-gull",
+    "title": "Species Accounts",
+    "section": "Iceland Gull",
+    "text": "Iceland Gull\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. One of the best finds of the year, with a single bird roosting in a gull flock off the Aquarium late in the evening of the 4th of November. Unfortunately a one-day wonder, but could (and should) plausibly occur again, likely as part of a larger gull flock during winter."
+  },
+  {
+    "objectID": "species_accounts.html#arctic-tern",
+    "href": "species_accounts.html#arctic-tern",
+    "title": "Species Accounts",
+    "section": "Arctic Tern",
+    "text": "Arctic Tern\n5 observations in 3 months across 3 sites. 22 total counted, high count 13. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon summer migrant. Surprisingly scarce on the patch this year, although perhaps in part due to the difficulties in identifying distant terns flying offshore (some of which will undoubtedly have been this species). First recorded on the 18th of June at the Aquarium, with further records over the next couple of months in St Andrews Bay and on the Eden Estuary until a final record on the 17th of August at Balgove Bay. Recorded both as single birds and in flocks, with the largest count comprising 13 birds off the Aquarium on the 13th of August."
+  },
+  {
+    "objectID": "species_accounts.html#common-tern",
+    "href": "species_accounts.html#common-tern",
+    "title": "Species Accounts",
+    "section": "Common Tern",
+    "text": "Common Tern\n10 observations in 2 months across 4 sites. 58 total counted, high count 18. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon summer migrant. As with Arctic Tern, remarkably scarce on the patch this year, and rather late to arrive. First recorded on the 11th of August off at the Aquarium, with records throughout August and September until a final sighting of 18 birds (the high count for the year) off The Scores on the 26th of September."
+  },
+  {
+    "objectID": "species_accounts.html#sandwich-tern",
+    "href": "species_accounts.html#sandwich-tern",
+    "title": "Species Accounts",
+    "section": "Sandwich Tern",
+    "text": "Sandwich Tern\n54 observations in 6 months across 9 sites. 594 total counted, high count 88. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon summer migrant. Comfortably the most abundant tern on the patch, with records from Balgove Bay all the way to Maiden Rock, although somewhat sporadic in occurrence, being notably absent throughout the month of June. First recorded on the 13th of April near East Sands, with records through until a final in-season record on the 2nd of October off The Scores, followed by a very late bird passing the Aquarium a month later on the 7th of November. The highest count of 88 birds was recorded on the 31st of July, comprising a consistent passage of birds moving past The Scores."
+  },
+  {
+    "objectID": "species_accounts.html#little-grebe",
+    "href": "species_accounts.html#little-grebe",
+    "title": "Species Accounts",
+    "section": "Little Grebe",
+    "text": "Little Grebe\n45 observations in 11 months across 4 sites. 54 total counted, high count 3. Breeding codes: FL, A, P, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon resident. Somewhat perplexing in its pattern of occurrence on the patch, birds do not seem to remain faithful to one site for any extended period of time, but rather move around extensively - perhaps in response to food availability or weather conditions. Recorded in most months of the year, but more frequently encountered in spring and summer, when a pair was present on North Haugh Pond between March and October; these birds bred on the pond, with the chick first seen on the 24th of May. Otherwise scarce, with a couple of autumn and winter records in St Andrews Bay, mostly near the Aquarium."
+  },
+  {
+    "objectID": "species_accounts.html#horned-grebe",
+    "href": "species_accounts.html#horned-grebe",
+    "title": "Species Accounts",
+    "section": "Horned Grebe",
+    "text": "Horned Grebe\n32 observations in 8 months across 4 sites. 61 total counted, high count 6. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon winter migrant. Regular but not abundant in the outer Eden Estuary throughout the colder months of the year, with occasional records in St Andrews Bay as well. Last recorded in the spring on the 21st of April at Balgove Bay, and first recorded in the autumn at the same site on the 29th of September. Generally only in small numbers, with a high count of just six birds (at Out Head on the 10th of November)."
+  },
+  {
+    "objectID": "species_accounts.html#red-necked-grebe",
+    "href": "species_accounts.html#red-necked-grebe",
+    "title": "Species Accounts",
+    "section": "Red-necked Grebe",
+    "text": "Red-necked Grebe\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. One of the best birds on the patch this year, with a single bird picked out from nearby Great Crested Grebes on the sea off the Aquarium on the 26th of November. The bird did not linger unfortunately, but further birds could plausibly occur at any point during winter."
+  },
+  {
+    "objectID": "species_accounts.html#great-crested-grebe",
+    "href": "species_accounts.html#great-crested-grebe",
+    "title": "Species Accounts",
+    "section": "Great Crested Grebe",
+    "text": "Great Crested Grebe\n55 observations in 9 months across 6 sites. 209 total counted, high count 16. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon winter migrant. The most frequently encountered grebe on the patch, being a regular fixture in St Andrews Bay throughout the colder months of the year. Last seen in the spring on the 21st of April at Balgove Bay, and first recorded in the autumn on the 30th of September off The Scores, with a couple of summer records in late July perhaps comprising failed breeders. Mostly seen in loose flocks of about half a dozen birds offshore, with a high count of 16 birds recorded in early January off the Aquarium."
+  },
+  {
+    "objectID": "species_accounts.html#red-throated-loon",
+    "href": "species_accounts.html#red-throated-loon",
+    "title": "Species Accounts",
+    "section": "Red-throated Loon",
+    "text": "Red-throated Loon\n83 observations in 12 months across 7 sites. 270 total counted, high count 39. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Exclusively marine, with records from Out Head to Maiden Rock. Although not a patch breeder, present throughout the year (with summer records presumably comprising young birds or failed breeders). More abundant during migration periods, when large flocks occasionally stage offshore in St Andrews Bay, the largest this year being 39 birds off Out Head on the 6th of May."
+  },
+  {
+    "objectID": "species_accounts.html#common-loon",
+    "href": "species_accounts.html#common-loon",
+    "title": "Species Accounts",
+    "section": "Common Loon",
+    "text": "Common Loon\n8 observations in 4 months across 3 sites. 10 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Seems to occur sporadically on the patch, although probably more regular during the colder months of the year, with most records between October and December. Records from Out Head to The Scores, although probably occurs further east in St Andrews Bay, and could also stage on the Eden Estuary too. Generally seen just as single birds, with a couple of records of two birds at a time."
+  },
+  {
+    "objectID": "species_accounts.html#northern-fulmar",
+    "href": "species_accounts.html#northern-fulmar",
+    "title": "Species Accounts",
+    "section": "Northern Fulmar",
+    "text": "Northern Fulmar\n131 observations in 10 months across 10 sites. 7231 total counted, high count 434. Breeding codes: NY, ON, A, N, P.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. A true St Andrews specialty, with the largest colony of the species in Fife on the cliffs between the Aquarium and East Sands comprising approximately 200 breeding pairs. Present in the colony throughout the year with the exception of early autumn when birds disperse post-breeding, before returning in November (with the first returning birds seen on the 5th of November, and more than 100 birds back by the 26th)."
+  },
+  {
+    "objectID": "species_accounts.html#sooty-shearwater",
+    "href": "species_accounts.html#sooty-shearwater",
+    "title": "Species Accounts",
+    "section": "Sooty Shearwater",
+    "text": "Sooty Shearwater\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Just one record of this species this year, a single individual past The Scores on the 26th of September during the peak seabird passage period. As with other scarce seabirds, probably more common offshore in St Andrews Bay, given how regular this species is past Fife Ness throughout the autumn."
+  },
+  {
+    "objectID": "species_accounts.html#manx-shearwater",
+    "href": "species_accounts.html#manx-shearwater",
+    "title": "Species Accounts",
+    "section": "Manx Shearwater",
+    "text": "Manx Shearwater\n3 observations in 2 months across 2 sites. 8 total counted, high count 5. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon passage visitor. Only recorded three times during the autumn seabird passage, with birds seen flying past the Aquarium and The Scores in July and August. Probably more common further offshore, and could plausibly occur in higher numbers during periods of strong onshore winds."
+  },
+  {
+    "objectID": "species_accounts.html#northern-gannet",
+    "href": "species_accounts.html#northern-gannet",
+    "title": "Species Accounts",
+    "section": "Northern Gannet",
+    "text": "Northern Gannet\n103 observations in 11 months across 8 sites. 1690 total counted, high count 132. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon summer migrant. One of the most abundant seabirds offshore in St Andrews Bay during the summer months, with birds returning early in the spring and remaining in the region into late autumn. First recorded for the year on the 29th of February, with the final record on the 29th of December (both records coming from the Aquarium). Numbers peak in late summer and autumn following breeding, when both adults and juveniles pass through St Andrews Bay on their southward migration (the highest count for the year coming on the 31st of July at The Scores)."
+  },
+  {
+    "objectID": "species_accounts.html#great-cormorant",
+    "href": "species_accounts.html#great-cormorant",
+    "title": "Species Accounts",
+    "section": "Great Cormorant",
+    "text": "Great Cormorant\n233 observations in 12 months across 14 sites. 2165 total counted, high count 115. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Ubiquitous along the coastline from Balgove Bay to Maiden Rock, with occasional records inland (mostly comprising flyover birds). Generally seen in small numbers roosting on the rocks or feeding offshore, but forms large flocks on the sandbars in the outer Eden Estuary, with the highest count this year being 115 birds at Balgove Bay on the 27th of August."
+  },
+  {
+    "objectID": "species_accounts.html#european-shag",
+    "href": "species_accounts.html#european-shag",
+    "title": "Species Accounts",
+    "section": "European Shag",
+    "text": "European Shag\n5 observations in 4 months across 2 sites. 9 total counted, high count 4. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Despite breeding on the Isle of May just 25km away, and being common throughout much of the Fife coast, this species was very scarce in Fife this year, with just five records. Undoubtedly this is in large part due to the effects of the 2023-24 storm season, which saw the local population decimated; it will be interesting to see what happens to this species’ occurrence on the patch in coming years as the population rebounds. Most records this year comprised individual birds, with a high count of four seen at the Aquarium on the 20th of January."
+  },
+  {
+    "objectID": "species_accounts.html#little-egret",
+    "href": "species_accounts.html#little-egret",
+    "title": "Species Accounts",
+    "section": "Little Egret",
+    "text": "Little Egret\n36 observations in 11 months across 6 sites. 86 total counted, high count 12. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon visitor. A fairly regular sight on the Eden Estuary, with records in most months of the year and a high count of 12 birds at Balgove Bay on the 29th of September; most abundant during autumn, with all records of half a dozen or more birds falling between August and October. Occasionally encountered outside the estuary, with a couple of records along the coastline and several sightings around North Haugh Pond, mostly in the first couple of months of the year."
+  },
+  {
+    "objectID": "species_accounts.html#gray-heron",
+    "href": "species_accounts.html#gray-heron",
+    "title": "Species Accounts",
+    "section": "Gray Heron",
+    "text": "Gray Heron\n296 observations in 12 months across 23 sites. 611 total counted, high count 13. Breeding codes: NB, N, P.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Present throughout town wherever there is water (with additional records of flyovers elsewhere). Most frequently seen around North Haugh Pond and on the cliffs by the Aquarium; the highest count was at North Haugh Pond, with 13 birds observed on the 2nd of February. Birds bred on the patch in several locations, with nesting observed along the Lade Braes and at the back of North Haugh Pond."
+  },
+  {
+    "objectID": "species_accounts.html#osprey",
+    "href": "species_accounts.html#osprey",
+    "title": "Species Accounts",
+    "section": "Osprey",
+    "text": "Osprey\n18 observations in 4 months across 6 sites. 21 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon summer migrant. Restricted on the patch to the outer Eden Estuary, with all records outside of Out Head and Balgove Bay comprising flyovers of birds headed towards the estuary. First recorded on the 6th of May at Out Head, with further records over the summer months until the final sighting on the 27th of August. Mostly only one bird seen at a time, with a few records of a pair together."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-sparrowhawk",
+    "href": "species_accounts.html#eurasian-sparrowhawk",
+    "title": "Species Accounts",
+    "section": "Eurasian Sparrowhawk",
+    "text": "Eurasian Sparrowhawk\n66 observations in 12 months across 17 sites. 72 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. Seen throughout town, although mostly in the vicinity of North Haugh Pond, where a pair of birds were present throughout the year. More frequently encountered outside of summer, perhaps suggesting a change in the detectability of birds during the breeding season. No direct breeding evidence observed, although likely that birds did breed somewhere on the patch, perhaps in the woods behind the Balgove estate."
+  },
+  {
+    "objectID": "species_accounts.html#white-tailed-eagle",
+    "href": "species_accounts.html#white-tailed-eagle",
+    "title": "Species Accounts",
+    "section": "White-tailed Eagle",
+    "text": "White-tailed Eagle\n1 observations in 1 months across 1 sites. 1 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Seen only once, a single adult bird observed on the Eden Estuary at Balgove Bay on the 13th of January, presumably one of the reintroduced local birds that have been present in Fife for several years now."
+  },
+  {
+    "objectID": "species_accounts.html#common-buzzard",
+    "href": "species_accounts.html#common-buzzard",
+    "title": "Species Accounts",
+    "section": "Common Buzzard",
+    "text": "Common Buzzard\n185 observations in 12 months across 17 sites. 278 total counted, high count 5. Breeding codes: C.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommon resident. The most frequently encountered raptor on the patch, seen throughout the year and in most parts of town (although more common in the more wooded north-west and southern edge). No definitive evidence of breeding on the patch, but the continual presence of a pair of birds around North Haugh Pond throughout the year, and the juvenile bird seen several times near the pond during autumn would suggest that breeding did occur somewhere nearby, perhaps in the woods behind the Balgove estate."
+  },
+  {
+    "objectID": "species_accounts.html#western-barn-owl",
+    "href": "species_accounts.html#western-barn-owl",
+    "title": "Species Accounts",
+    "section": "Western Barn Owl",
+    "text": "Western Barn Owl\n2 observations in 2 months across 2 sites. 2 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Almost certainly more regular on the patch than records suggest, but only observed twice - both records comprising individual birds out hunting on separate evenings. The first bird was seen hunting over stubble fields by the Strathkinness Low Road on the 23rd of October, while the second bird was on the field up behind North Haugh Pond on Christmas night."
+  },
+  {
+    "objectID": "species_accounts.html#tawny-owl",
+    "href": "species_accounts.html#tawny-owl",
+    "title": "Species Accounts",
+    "section": "Tawny Owl",
+    "text": "Tawny Owl\n8 observations in 5 months across 4 sites. 11 total counted, high count 4. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUncommon resident. Probably several pairs throughout the patch, but only irregularly encountered given their nocturnal habits. Most records from near home, including four birds observed on the night of the 14th of November, likely comprising a family group of adults and young."
+  },
+  {
+    "objectID": "species_accounts.html#short-eared-owl",
+    "href": "species_accounts.html#short-eared-owl",
+    "title": "Species Accounts",
+    "section": "Short-eared Owl",
+    "text": "Short-eared Owl\n5 observations in 2 months across 2 sites. 5 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor. Only seen in two months of the year, with several records during August likely due to the same bird hanging around the Eden Estuary for several weeks. All records from either Out Head or Balgove Bay, and all comprising just a single bird."
+  },
+  {
+    "objectID": "species_accounts.html#common-kingfisher",
+    "href": "species_accounts.html#common-kingfisher",
+    "title": "Species Accounts",
+    "section": "Common Kingfisher",
+    "text": "Common Kingfisher\n19 observations in 8 months across 5 sites. 21 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare resident"
+  },
+  {
+    "objectID": "species_accounts.html#great-spotted-woodpecker",
+    "href": "species_accounts.html#great-spotted-woodpecker",
+    "title": "Species Accounts",
+    "section": "Great Spotted Woodpecker",
+    "text": "Great Spotted Woodpecker\n56 observations in 12 months across 9 sites. 58 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-kestrel",
+    "href": "species_accounts.html#eurasian-kestrel",
+    "title": "Species Accounts",
+    "section": "Eurasian Kestrel",
+    "text": "Eurasian Kestrel\n17 observations in 8 months across 5 sites. 17 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#peregrine-falcon",
+    "href": "species_accounts.html#peregrine-falcon",
+    "title": "Species Accounts",
+    "section": "Peregrine Falcon",
+    "text": "Peregrine Falcon\n12 observations in 7 months across 6 sites. 13 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-jay",
+    "href": "species_accounts.html#eurasian-jay",
+    "title": "Species Accounts",
+    "section": "Eurasian Jay",
+    "text": "Eurasian Jay\n13 observations in 3 months across 2 sites. 20 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-magpie",
+    "href": "species_accounts.html#eurasian-magpie",
+    "title": "Species Accounts",
+    "section": "Eurasian Magpie",
+    "text": "Eurasian Magpie\n385 observations in 12 months across 38 sites. 674 total counted, high count 10. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-jackdaw",
+    "href": "species_accounts.html#eurasian-jackdaw",
+    "title": "Species Accounts",
+    "section": "Eurasian Jackdaw",
+    "text": "Eurasian Jackdaw\n715 observations in 12 months across 41 sites. 5898 total counted, high count 219. Breeding codes: N, C.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#rook",
+    "href": "species_accounts.html#rook",
+    "title": "Species Accounts",
+    "section": "Rook",
+    "text": "Rook\n315 observations in 12 months across 34 sites. 1803 total counted, high count 111. Breeding codes: FL, ON, UN, CN, N.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#carrion-crow",
+    "href": "species_accounts.html#carrion-crow",
+    "title": "Species Accounts",
+    "section": "Carrion Crow",
+    "text": "Carrion Crow\n943 observations in 12 months across 45 sites. 6013 total counted, high count 161. Breeding codes: ON, CN, A, C.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#common-raven",
+    "href": "species_accounts.html#common-raven",
+    "title": "Species Accounts",
+    "section": "Common Raven",
+    "text": "Common Raven\n9 observations in 3 months across 4 sites. 16 total counted, high count 3. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#coal-tit",
+    "href": "species_accounts.html#coal-tit",
+    "title": "Species Accounts",
+    "section": "Coal Tit",
+    "text": "Coal Tit\n251 observations in 12 months across 23 sites. 418 total counted, high count 7. Breeding codes: FL, C, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-blue-tit",
+    "href": "species_accounts.html#eurasian-blue-tit",
+    "title": "Species Accounts",
+    "section": "Eurasian Blue Tit",
+    "text": "Eurasian Blue Tit\n607 observations in 12 months across 40 sites. 2163 total counted, high count 21. Breeding codes: FL, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#great-tit",
+    "href": "species_accounts.html#great-tit",
+    "title": "Species Accounts",
+    "section": "Great Tit",
+    "text": "Great Tit\n263 observations in 12 months across 28 sites. 494 total counted, high count 12. Breeding codes: CN, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-skylark",
+    "href": "species_accounts.html#eurasian-skylark",
+    "title": "Species Accounts",
+    "section": "Eurasian Skylark",
+    "text": "Eurasian Skylark\n215 observations in 12 months across 30 sites. 681 total counted, high count 31. Breeding codes: A, M, S7, S, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#sedge-warbler",
+    "href": "species_accounts.html#sedge-warbler",
+    "title": "Species Accounts",
+    "section": "Sedge Warbler",
+    "text": "Sedge Warbler\n24 observations in 4 months across 10 sites. 28 total counted, high count 2. Breeding codes: CN, A, P, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#bank-swallow",
+    "href": "species_accounts.html#bank-swallow",
+    "title": "Species Accounts",
+    "section": "Bank Swallow",
+    "text": "Bank Swallow\n85 observations in 6 months across 13 sites. 270 total counted, high count 16. Breeding codes: N, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#barn-swallow",
+    "href": "species_accounts.html#barn-swallow",
+    "title": "Species Accounts",
+    "section": "Barn Swallow",
+    "text": "Barn Swallow\n272 observations in 7 months across 35 sites. 1082 total counted, high count 36. Breeding codes: FL, CN.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#western-house-martin",
+    "href": "species_accounts.html#western-house-martin",
+    "title": "Species Accounts",
+    "section": "Western House-Martin",
+    "text": "Western House-Martin\n148 observations in 6 months across 31 sites. 2845 total counted, high count 232. Breeding codes: ON, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#willow-warbler",
+    "href": "species_accounts.html#willow-warbler",
+    "title": "Species Accounts",
+    "section": "Willow Warbler",
+    "text": "Willow Warbler\n67 observations in 5 months across 11 sites. 123 total counted, high count 5. Breeding codes: FY, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#common-chiffchaff",
+    "href": "species_accounts.html#common-chiffchaff",
+    "title": "Species Accounts",
+    "section": "Common Chiffchaff",
+    "text": "Common Chiffchaff\n235 observations in 9 months across 26 sites. 495 total counted, high count 11. Breeding codes: CF, M, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#long-tailed-tit",
+    "href": "species_accounts.html#long-tailed-tit",
+    "title": "Species Accounts",
+    "section": "Long-tailed Tit",
+    "text": "Long-tailed Tit\n168 observations in 12 months across 25 sites. 523 total counted, high count 18. Breeding codes: CN.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-blackcap",
+    "href": "species_accounts.html#eurasian-blackcap",
+    "title": "Species Accounts",
+    "section": "Eurasian Blackcap",
+    "text": "Eurasian Blackcap\n83 observations in 9 months across 16 sites. 162 total counted, high count 5. Breeding codes: FL, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#greater-whitethroat",
+    "href": "species_accounts.html#greater-whitethroat",
+    "title": "Species Accounts",
+    "section": "Greater Whitethroat",
+    "text": "Greater Whitethroat\n29 observations in 4 months across 13 sites. 45 total counted, high count 4. Breeding codes: CF, S7, S, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#goldcrest",
+    "href": "species_accounts.html#goldcrest",
+    "title": "Species Accounts",
+    "section": "Goldcrest",
+    "text": "Goldcrest\n178 observations in 12 months across 16 sites. 318 total counted, high count 10. Breeding codes: S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-treecreeper",
+    "href": "species_accounts.html#eurasian-treecreeper",
+    "title": "Species Accounts",
+    "section": "Eurasian Treecreeper",
+    "text": "Eurasian Treecreeper\n108 observations in 12 months across 15 sites. 130 total counted, high count 3. Breeding codes: S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-wren",
+    "href": "species_accounts.html#eurasian-wren",
+    "title": "Species Accounts",
+    "section": "Eurasian Wren",
+    "text": "Eurasian Wren\n501 observations in 12 months across 40 sites. 1184 total counted, high count 16. Breeding codes: CF, FL, CN, C, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#white-throated-dipper",
+    "href": "species_accounts.html#white-throated-dipper",
+    "title": "Species Accounts",
+    "section": "White-throated Dipper",
+    "text": "White-throated Dipper\n23 observations in 9 months across 1 sites. 33 total counted, high count 4. Breeding codes: S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#european-starling",
+    "href": "species_accounts.html#european-starling",
+    "title": "Species Accounts",
+    "section": "European Starling",
+    "text": "European Starling\n376 observations in 12 months across 35 sites. 4053 total counted, high count 150. Breeding codes: NY, CF, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#mistle-thrush",
+    "href": "species_accounts.html#mistle-thrush",
+    "title": "Species Accounts",
+    "section": "Mistle Thrush",
+    "text": "Mistle Thrush\n79 observations in 11 months across 17 sites. 194 total counted, high count 35. Breeding codes: A.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#song-thrush",
+    "href": "species_accounts.html#song-thrush",
+    "title": "Species Accounts",
+    "section": "Song Thrush",
+    "text": "Song Thrush\n119 observations in 11 months across 24 sites. 176 total counted, high count 7. Breeding codes: FL, M, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#redwing",
+    "href": "species_accounts.html#redwing",
+    "title": "Species Accounts",
+    "section": "Redwing",
+    "text": "Redwing\n98 observations in 7 months across 20 sites. 923 total counted, high count 462. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-blackbird",
+    "href": "species_accounts.html#eurasian-blackbird",
+    "title": "Species Accounts",
+    "section": "Eurasian Blackbird",
+    "text": "Eurasian Blackbird\n530 observations in 12 months across 42 sites. 1466 total counted, high count 27. Breeding codes: CF, FL, T, M, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#fieldfare",
+    "href": "species_accounts.html#fieldfare",
+    "title": "Species Accounts",
+    "section": "Fieldfare",
+    "text": "Fieldfare\n9 observations in 4 months across 4 sites. 90 total counted, high count 67. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#european-robin",
+    "href": "species_accounts.html#european-robin",
+    "title": "Species Accounts",
+    "section": "European Robin",
+    "text": "European Robin\n668 observations in 12 months across 45 sites. 1966 total counted, high count 24. Breeding codes: CF, FL, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#common-redstart",
+    "href": "species_accounts.html#common-redstart",
+    "title": "Species Accounts",
+    "section": "Common Redstart",
+    "text": "Common Redstart\n2 observations in 1 months across 1 sites. 2 total counted, high count 1. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#european-stonechat",
+    "href": "species_accounts.html#european-stonechat",
+    "title": "Species Accounts",
+    "section": "European Stonechat",
+    "text": "European Stonechat\n38 observations in 12 months across 6 sites. 88 total counted, high count 6. Breeding codes: FL, P.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#northern-wheatear",
+    "href": "species_accounts.html#northern-wheatear",
+    "title": "Species Accounts",
+    "section": "Northern Wheatear",
+    "text": "Northern Wheatear\n2 observations in 2 months across 2 sites. 3 total counted, high count 2. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#bohemian-waxwing",
+    "href": "species_accounts.html#bohemian-waxwing",
+    "title": "Species Accounts",
+    "section": "Bohemian Waxwing",
+    "text": "Bohemian Waxwing\n1 observations in 1 months across 1 sites. 7 total counted, high count 7. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#dunnock",
+    "href": "species_accounts.html#dunnock",
+    "title": "Species Accounts",
+    "section": "Dunnock",
+    "text": "Dunnock\n421 observations in 12 months across 40 sites. 703 total counted, high count 10. Breeding codes: CF, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#house-sparrow",
+    "href": "species_accounts.html#house-sparrow",
+    "title": "Species Accounts",
+    "section": "House Sparrow",
+    "text": "House Sparrow\n337 observations in 12 months across 35 sites. 1979 total counted, high count 34. Breeding codes: CN, C.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-tree-sparrow",
+    "href": "species_accounts.html#eurasian-tree-sparrow",
+    "title": "Species Accounts",
+    "section": "Eurasian Tree Sparrow",
+    "text": "Eurasian Tree Sparrow\n37 observations in 12 months across 7 sites. 166 total counted, high count 17. Breeding codes: FY, P, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#gray-wagtail",
+    "href": "species_accounts.html#gray-wagtail",
+    "title": "Species Accounts",
+    "section": "Gray Wagtail",
+    "text": "Gray Wagtail\n77 observations in 12 months across 16 sites. 89 total counted, high count 4. Breeding codes: FL, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#white-wagtail",
+    "href": "species_accounts.html#white-wagtail",
+    "title": "Species Accounts",
+    "section": "White Wagtail",
+    "text": "White Wagtail\n341 observations in 12 months across 27 sites. 1088 total counted, high count 62. Breeding codes: FL.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#meadow-pipit",
+    "href": "species_accounts.html#meadow-pipit",
+    "title": "Species Accounts",
+    "section": "Meadow Pipit",
+    "text": "Meadow Pipit\n163 observations in 12 months across 20 sites. 417 total counted, high count 14. Breeding codes: CF, M, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#rock-pipit",
+    "href": "species_accounts.html#rock-pipit",
+    "title": "Species Accounts",
+    "section": "Rock Pipit",
+    "text": "Rock Pipit\n87 observations in 11 months across 6 sites. 186 total counted, high count 9. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#common-chaffinch",
+    "href": "species_accounts.html#common-chaffinch",
+    "title": "Species Accounts",
+    "section": "Common Chaffinch",
+    "text": "Common Chaffinch\n471 observations in 12 months across 38 sites. 1307 total counted, high count 18. Breeding codes: M, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-bullfinch",
+    "href": "species_accounts.html#eurasian-bullfinch",
+    "title": "Species Accounts",
+    "section": "Eurasian Bullfinch",
+    "text": "Eurasian Bullfinch\n255 observations in 12 months across 25 sites. 526 total counted, high count 15. Breeding codes: FL, C, P.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#european-greenfinch",
+    "href": "species_accounts.html#european-greenfinch",
+    "title": "Species Accounts",
+    "section": "European Greenfinch",
+    "text": "European Greenfinch\n205 observations in 11 months across 32 sites. 363 total counted, high count 17. Breeding codes: S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-linnet",
+    "href": "species_accounts.html#eurasian-linnet",
+    "title": "Species Accounts",
+    "section": "Eurasian Linnet",
+    "text": "Eurasian Linnet\n187 observations in 12 months across 20 sites. 2063 total counted, high count 159. Breeding codes: FL, C, P, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#redpoll",
+    "href": "species_accounts.html#redpoll",
+    "title": "Species Accounts",
+    "section": "Redpoll",
+    "text": "Redpoll\n3 observations in 2 months across 1 sites. 7 total counted, high count 5. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#european-goldfinch",
+    "href": "species_accounts.html#european-goldfinch",
+    "title": "Species Accounts",
+    "section": "European Goldfinch",
+    "text": "European Goldfinch\n503 observations in 12 months across 42 sites. 2709 total counted, high count 78. Breeding codes: NY, C, S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#eurasian-siskin",
+    "href": "species_accounts.html#eurasian-siskin",
+    "title": "Species Accounts",
+    "section": "Eurasian Siskin",
+    "text": "Eurasian Siskin\n121 observations in 11 months across 15 sites. 343 total counted, high count 50. Breeding codes: S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#corn-bunting",
+    "href": "species_accounts.html#corn-bunting",
+    "title": "Species Accounts",
+    "section": "Corn Bunting",
+    "text": "Corn Bunting\n2 observations in 2 months across 1 sites. 2 total counted, high count 1. Breeding codes: S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#yellowhammer",
+    "href": "species_accounts.html#yellowhammer",
+    "title": "Species Accounts",
+    "section": "Yellowhammer",
+    "text": "Yellowhammer\n111 observations in 12 months across 19 sites. 299 total counted, high count 28. Breeding codes: S7, S.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "species_accounts.html#reed-bunting",
+    "href": "species_accounts.html#reed-bunting",
+    "title": "Species Accounts",
+    "section": "Reed Bunting",
+    "text": "Reed Bunting\n35 observations in 11 months across 9 sites. 43 total counted, high count 2. Breeding codes: P, S, H.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrief description. Records description. Commentary."
+  },
+  {
+    "objectID": "month_accounts.html#february",
+    "href": "month_accounts.html#february",
+    "title": "Month Accounts",
+    "section": "February",
+    "text": "February\n101 species (9 new) across 118 complete checklists. 44.1 total hours of effort across 29 patch days, covering 83.6 km.\nA slightly better month than January in terms of species tally, but somewhat diminished in terms of quality. The standout bird of the month was my only record of Bohemian Waxwing (a flock of 7 twitched between Swilken Burn and Balgove Bay on the 23rd). Other notable sightings included my first of three Redpoll sightings for the year (5 birds at North Haugh Pond on the 6th), Common Raven continuing at North Haugh Pond (on the 6th, 8th, 10th, and 18th) for a couple of weeks before disappearing, a Little Gull at the Aquarium on the 9th in the middle of a storm, and the first returns of two (primarily) summer migrants to the patch: Lesser Black-backed Gull (first at the Aquarium on the 17th) and Northern Gannet (first off the Aquarium on the 29th)."
+  },
+  {
+    "objectID": "month_accounts.html#march",
+    "href": "month_accounts.html#march",
+    "title": "Month Accounts",
+    "section": "March",
+    "text": "March\n98 species (5 new) across 108 complete checklists. 42 total hours of effort across 31 patch days, covering 81.9 km.\nA quiet month, with less than 100 species recorded and few sightings of any great note (every species recorded in March was also recorded in at least one other month). Highlights included my only record of Whooper Swan for the first half of the year (4 birds off the Aquarium on the 3rd), first records of Short-eared Owl (at Out Head on the 30th) and Tawny Owl (at home on the 30th), last records (for the first winter period) of Velvet Scoter (at the Aquarium on the 17th) and Common Greenshank (by the Coastal Path on the 23rd), and the first returns of a handful of summer migrants to the patch, all at North Haugh Pond: Common Chiffchaff (first on the 8th), Eurasian Blackcap (29th), and Bank Swallow (30th)."
+  },
+  {
+    "objectID": "month_accounts.html#april",
+    "href": "month_accounts.html#april",
+    "title": "Month Accounts",
+    "section": "April",
+    "text": "April\n97 species (8 new) across 93 complete checklists. 35.6 total hours of effort across 25 patch days, covering 58.7 km.\nA below-average month in terms of species observed (partially owing to time spent off-patch in the Highlands), but with a number of highlights. The two standouts were my only records of Black-tailed Godwit (a flock of 11 at Balgove Bay on the 6th) and Common Redstart (twitched on Watson Avenue on the 12th) for the year. Other notable sightings included the first of a number of Common Loon sightings for the year (off the Aquarium on the 21st), the last records of a number of winter migrants: Pink-footed Goose (at North Haugh Pond on the 11th), Northern Pintail (at Balgove Bay on the 21st), Greater Scaup (at Out Head on the 22nd), Black-bellied Plover (at Balgove Bay on the 21st), Common Redshank (at Balgove Bay on the 21st), Horned Grebe (at Balgove Bay on the 21st), Great Crested Grebe (at Balgove Bay on the 21st), and Redwing (at the Observatory on the 3rd), and first records for several summer migrants: Sandwich Tern (at East Sands on the 13th), Barn Swallow (at the Aquarium on the 19th), Western House-Martin (on the Coastal Path on the 21st), and Willow Warbler (on Watson Avenue on the 12th)."
+  },
+  {
+    "objectID": "month_accounts.html#may",
+    "href": "month_accounts.html#may",
+    "title": "Month Accounts",
+    "section": "May",
+    "text": "May\n98 species (8 new) across 100 complete checklists. 43.4 total hours of effort across 29 patch days, covering 74.4 km.\nAn exciting month with plenty of migratory and breeding activity, but ultimately little payoff in patch listing terms, with less than 100 species recorded and none unique to the month. Highlights included the first Corn Bunting territory in St Andrews in modern times (my first observation in the fields south-east of town on the 25th), my only spring records of Northern Wheatear (at Out Head on the 6th) and Barnacle Goose (at Balgove Bay on the 19th), the last records of a handful of late-departing winter migrants: Eurasian Wigeon (at Balgove Bay on the 19th), Long-tailed Duck (at Out Head on the 19th), Ruddy Turnstone (at the Aquarium on the 5th), Red Knot (at Balgove Bay on the 4th), Sanderling (at Out Head on the 6th), and Purple Sandpiper (at Out Head on the 6th), and the arrival of a few late-returning summer migrants: Common Swift (at North Haugh Pond on the 10th), Osprey (at Out Head on the 6th), Sedge Warbler (at Out Head on the 2nd), and Greater Whitethroat (at Out Head on the 2nd)."
+  },
+  {
+    "objectID": "month_accounts.html#june",
+    "href": "month_accounts.html#june",
+    "title": "Month Accounts",
+    "section": "June",
+    "text": "June\n91 species (4 new) across 79 complete checklists. 32.8 total hours of effort across 21 patch days, covering 59.7 km.\nOne of the quietest months of the year, with the lowest tally and no unique species, although total effort was reduced owing to a trip to Switzerland in the latter half of the month. Highlights included out-of-season records of Brant (2 at Balgove Bay on the 17th), Canada Goose (18 over North Haugh Pond on the 5th), and Eurasian Jay (2 in Lumbo Den on the 1st), as well as the first record of Arctic Tern for the year (off the Aquarium on the 18th), and the arrival of a pair of Eurasian Coot at North Haugh Pond (first seen on the 3rd) that remained throughout the summer and ultimately bred."
+  },
+  {
+    "objectID": "month_accounts.html#july",
+    "href": "month_accounts.html#july",
+    "title": "Month Accounts",
+    "section": "July",
+    "text": "July\n100 species (4 new) across 96 complete checklists. 42.1 total hours of effort across 26 patch days, covering 63.2 km.\nA solid month with a reasonable tally and some quality sightings, although once again no unique species. Total effort slightly reduced once again due to a trip to Wales in the middle of the month. The undeniable star of the month was a Lesser Yellowlegs found on the 24th down by The Scores (twitched by me later that evening); this was only the second Fife record of the species, and the bird showed well on the rocks around Castle Sands for more than a week. Other highlights included Common Sandpiper (also on the rocks by The Scores during the same period, first seen on the 23rd), the first Parasitic Jaeger for the autumn (off the Aquarium on the 28th), a handful of Little Gull sightings (off the Aquarium on the 9th, The Scores on the 10th, and a flock of 9 at Out Head on the 21st), the first Manx Shearwater for the autumn (off The Scores on the 5th), and what turned out to be my last record of European Shag for the year (at the Aquarium on the 25th)."
+  },
+  {
+    "objectID": "month_accounts.html#august",
+    "href": "month_accounts.html#august",
+    "title": "Month Accounts",
+    "section": "August",
+    "text": "August\n103 species (2 new) across 109 complete checklists. 48.3 total hours of effort across 26 patch days, covering 74.8 km.\nOne of the best months of the year, with a high tally and a number of good species seen. The best find of the month was a Red Phalarope down on Balgove Bay late in the evening of the 27th, an unusual record both due to its timing (very early in the autumn) and location (in the estuary, rather than offshore). Other highlights included the Lesser Yellowlegs and Common Sandpiper continuing down by The Scores at the start of the month, the passage of Canada Goose (first seen on the 13th at home) and Whimbrel (first seen on the 1st at Out Head) through the patch, the (rather late) arrival of Common Tern (off the Aquarium on the 11th), a Short-eared Owl lingering around the Eden Estuary (first seen at Out Head on the 1st), and my only autumn record of Northern Wheatear (at North Haugh Pond on the 11th)."
+  },
+  {
+    "objectID": "month_accounts.html#september",
+    "href": "month_accounts.html#september",
+    "title": "Month Accounts",
+    "section": "September",
+    "text": "September\n92 species (2 new) across 20 complete checklists. 11.7 total hours of effort across 6 patch days, covering 15.1 km.\nA quiet month, but mostly due to being off-patch in Australia for all but the last week or so; this may well have been one of the best months of the year if I’d been around for more of it. The major highlights of the month were a Sooty Shearwater off The Scores on the 26th, and a juvenile Ruff on Balgove Bay in the morning of the 28th. Other highlights included the arrival of a number of winter waterfowl: Pink-footed Goose (over North Haugh Pond on the 24th), Barnacle Goose (over the Aquarium on the 26th), Eurasian Wigeon (down at Balgove Bay on the 28th), Northern Pintail (also at Balgove Bay on the 28th), Greater Scaup (Balgove Bay on the 28th), Long-tailed Duck (Balgove Bay on the 29th), and Horned Grebe (Balgove Bay on the 29th), and the departure of a couple of summer migrants: Common Tern (last seen off The Scores on the 26th) and Western House-Martin (at North Haugh Pond on the 30th)."
+  },
+  {
+    "objectID": "month_accounts.html#october",
+    "href": "month_accounts.html#october",
+    "title": "Month Accounts",
+    "section": "October",
+    "text": "October\n109 species (2 new) across 93 complete checklists. 43.8 total hours of effort across 31 patch days, covering 64.9 km.\nA very good month, with the highest species tally for the year and a number of good birds found. The major highlight was my only Great Skua for the year, flying past the Aquarium on the 1st. Other highlights included my first of two Western Barn Owl records, this one a fortuitous sighting on the evening of the 23rd at the start of the Strathkinness Low Road, and the return of Eurasian Jay to North Haugh Pond (first seen on the 4th, with several records throughout the month). Winter migrants continued to arrive, with Whooper Swan at Balgove Bay on the 13th, Velvet Scoter off the Aquarium on the 8th, Purple Sandpiper by the Aquarium on the 9th, Great Crested Grebe off the Aquarium on the 8th, and Redwing at the Observatory on the 9th. Similarly, the last summer migrants disappeared throughout the month, with Eurasian Coot last at North Haugh Pond on the 3rd, Barn Swallow similarly last at North Haugh Pond on the 13th, and Eurasian Blackcap at North Haugh Pond on the 10th."
+  },
+  {
+    "objectID": "month_accounts.html#november",
+    "href": "month_accounts.html#november",
+    "title": "Month Accounts",
+    "section": "November",
+    "text": "November\n108 species (4 new) across 71 complete checklists. 33.2 total hours of effort across 30 patch days, covering 51.5 km.\nPerhaps the best month of the year, and almost entirely due to a number of great birds seen off the Aquarium at various points throughout the month. The first of two major highlights was an Iceland Gull off the Aquarium on the 4th, found late in the evening in fading light and not relocated on subsequent visits. The second highlight was a distant Red-necked Grebe twitched off the Aquarium on the 26th (in rather better light, thankfully); on the same day I picked up my first Atlantic Puffin for the year, part of an influx into the patch that continued through December. Other highlights included a handful of Dovekie (also off the Aquarium, with the first bird on the 16th), a late Sandwich Tern (off the Aquarium on the 7th), a number of Common Loon sightings (off both the Aquarium and The Scores), a family of Tawny Owl by home on the 14th, a Common Raven pair down by the Aquarium on the 5th, my first Fieldfare for the second winter period (a flock of 67 at North Haugh Pond on the 24th), and my second and third Redpoll sightings for the year (singles at North Haugh Pond on the 4th and 15th)."
+  },
+  {
+    "objectID": "month_accounts.html#december",
+    "href": "month_accounts.html#december",
+    "title": "Month Accounts",
+    "section": "December",
+    "text": "December\n102 species (1 new) across 80 complete checklists. 38.4 total hours of effort across 31 patch days, covering 61 km.\nA fairly subdued end to the year, with a reasonable species tally but only a handful of noteworthy sightings. The major highlight of the month was a Black Guillemot off the Aquarium on the 20th, completing the set of all 5 regular British auk species on the patch, and being my final addition to the year list. Other highlights included an unusual Tufted Duck sighting (at Balgove Bay on the 14th), a Common Snipe at North Haugh Pond (on the 8th), five Atlantic Puffin in St Andrews Bay (singles off the Aquarium on the 14th and 23rd, and 3 together off The Scores on the 14th), a final Dovekie sighting (off the Aquarium on the 21st), a Western Barn Owl near North Haugh Pond on Christmas night, and an out-of-season Common Chiffchaff that hung around North Haugh Pond for a couple of days at the end of the month (first found on the 20th)."
+  },
+  {
+    "objectID": "month_accounts.html",
+    "href": "month_accounts.html",
+    "title": "Month Accounts",
+    "section": "",
+    "text": "98 species (98 new) across 109 complete checklists. 38.5 total hours of effort across 31 patch days, covering 60.6 km.\nA solid start to the year, despite recording less than 100 species throughout the month. The major highlights were my only records of Water Rail (by North Haugh Pond on the 6th), White-tailed Eagle (on Balgove Bay on the 13th), and Eurasian Woodcock (at North Haugh Pond on the 22nd). Other notable sightings included Common Snipe (by Balgove Bay on the 20th), Little Gull (off the Aquarium on the 6th), Little Grebe (off Maiden Rock on the 27th), European Shag (at the Aquarium on the 20th), Common Kingfisher (at Maiden Rock on the 27th), Common Raven (at North Haugh Pond on the 9th and 25th, the Observatory on the 11th, and by Lade Braes on the 27th), and an out-of-season Eurasian Blackcap (along Saint Leonards Road on the 13th)."
+  },
+  {
+    "objectID": "month_accounts.html#january",
+    "href": "month_accounts.html#january",
+    "title": "Month Accounts",
+    "section": "",
+    "text": "98 species (98 new) across 109 complete checklists. 38.5 total hours of effort across 31 patch days, covering 60.6 km.\nA solid start to the year, despite recording less than 100 species throughout the month. The major highlights were my only records of Water Rail (by North Haugh Pond on the 6th), White-tailed Eagle (on Balgove Bay on the 13th), and Eurasian Woodcock (at North Haugh Pond on the 22nd). Other notable sightings included Common Snipe (by Balgove Bay on the 20th), Little Gull (off the Aquarium on the 6th), Little Grebe (off Maiden Rock on the 27th), European Shag (at the Aquarium on the 20th), Common Kingfisher (at Maiden Rock on the 27th), Common Raven (at North Haugh Pond on the 9th and 25th, the Observatory on the 11th, and by Lade Braes on the 27th), and an out-of-season Eurasian Blackcap (along Saint Leonards Road on the 13th)."
+  },
+  {
+    "objectID": "site_accounts.html#west-sands",
+    "href": "site_accounts.html#west-sands",
+    "title": "Site Accounts",
+    "section": "West Sands",
+    "text": "West Sands\n\n\n52 species observed across 20 checklists in 11 months. 8 total hours of effort covering 27 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#aquarium-viewpoint",
+    "href": "site_accounts.html#aquarium-viewpoint",
+    "title": "Site Accounts",
+    "section": "Aquarium Viewpoint",
+    "text": "Aquarium Viewpoint\n\n\n99 species observed across 94 checklists in 12 months. 75 total hours of effort covering 32 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#the-scores",
+    "href": "site_accounts.html#the-scores",
+    "title": "Site Accounts",
+    "section": "The Scores",
+    "text": "The Scores\n\n\n74 species observed across 38 checklists in 10 months. 25 total hours of effort covering 23 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#east-sands",
+    "href": "site_accounts.html#east-sands",
+    "title": "Site Accounts",
+    "section": "East Sands",
+    "text": "East Sands\n\n\n55 species observed across 18 checklists in 7 months. 6 total hours of effort covering 11 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#coastal-path-from-st-andrews",
+    "href": "site_accounts.html#coastal-path-from-st-andrews",
+    "title": "Site Accounts",
+    "section": "Coastal Path from St Andrews",
+    "text": "Coastal Path from St Andrews\n\n\n56 species observed across 9 checklists in 5 months. 4 total hours of effort covering 8 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#maiden-rock",
+    "href": "site_accounts.html#maiden-rock",
+    "title": "Site Accounts",
+    "section": "Maiden Rock",
+    "text": "Maiden Rock\n\n\n49 species observed across 6 checklists in 4 months. 5 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#sweet-zephyr-overlook",
+    "href": "site_accounts.html#sweet-zephyr-overlook",
+    "title": "Site Accounts",
+    "section": "Sweet Zephyr Overlook",
+    "text": "Sweet Zephyr Overlook\n\n\n18 species observed across 1 checklists in 1 months. 0 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#north-haugh-pond",
+    "href": "site_accounts.html#north-haugh-pond",
+    "title": "Site Accounts",
+    "section": "North Haugh Pond",
+    "text": "North Haugh Pond\n\n\n88 species observed across 162 checklists in 12 months. 121 total hours of effort covering 200 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#north-haugh-meadow",
+    "href": "site_accounts.html#north-haugh-meadow",
+    "title": "Site Accounts",
+    "section": "North Haugh Meadow",
+    "text": "North Haugh Meadow\n\n\n39 species observed across 24 checklists in 9 months. 3 total hours of effort covering 11 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-links",
+    "href": "site_accounts.html#st-andrews-links",
+    "title": "Site Accounts",
+    "section": "St Andrews Links",
+    "text": "St Andrews Links\n\n\n67 species observed across 50 checklists in 12 months. 16 total hours of effort covering 69 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#balgove-farm",
+    "href": "site_accounts.html#balgove-farm",
+    "title": "Site Accounts",
+    "section": "Balgove Farm",
+    "text": "Balgove Farm\n\n\n42 species observed across 11 checklists in 6 months. 4 total hours of effort covering 16 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#old-course-hotel-bus-stop",
+    "href": "site_accounts.html#old-course-hotel-bus-stop",
+    "title": "Site Accounts",
+    "section": "Old Course Hotel Bus Stop",
+    "text": "Old Course Hotel Bus Stop\n\n\n34 species observed across 9 checklists in 6 months. 2 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#swilken-burn-to-balgove-bay",
+    "href": "site_accounts.html#swilken-burn-to-balgove-bay",
+    "title": "Site Accounts",
+    "section": "Swilken Burn to Balgove Bay",
+    "text": "Swilken Burn to Balgove Bay\n\n\n61 species observed across 14 checklists in 10 months. 8 total hours of effort covering 18 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#david-russell-apartments-to-swilken-burn",
+    "href": "site_accounts.html#david-russell-apartments-to-swilken-burn",
+    "title": "Site Accounts",
+    "section": "David Russell Apartments to Swilken Burn",
+    "text": "David Russell Apartments to Swilken Burn\n\n\n55 species observed across 25 checklists in 12 months. 8 total hours of effort covering 24 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#strathkinness-high-to-strathkinness-low-roads",
+    "href": "site_accounts.html#strathkinness-high-to-strathkinness-low-roads",
+    "title": "Site Accounts",
+    "section": "Strathkinness High to Strathkinness Low Roads",
+    "text": "Strathkinness High to Strathkinness Low Roads\n\n\n11 species observed across 3 checklists in 2 months. 1 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#b939-buchanan-gardens-and-strathkinness-low-road",
+    "href": "site_accounts.html#b939-buchanan-gardens-and-strathkinness-low-road",
+    "title": "Site Accounts",
+    "section": "B939 (Buchanan Gardens and Strathkinness Low Road)",
+    "text": "B939 (Buchanan Gardens and Strathkinness Low Road)\n\n\n29 species observed across 5 checklists in 4 months. 2 total hours of effort covering 6 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#kinness-burn-between-rufflets-and-lade-braes",
+    "href": "site_accounts.html#kinness-burn-between-rufflets-and-lade-braes",
+    "title": "Site Accounts",
+    "section": "Kinness Burn between Rufflets and Lade Braes",
+    "text": "Kinness Burn between Rufflets and Lade Braes\n\n\n21 species observed across 1 checklists in 1 months. 0 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#market-street",
+    "href": "site_accounts.html#market-street",
+    "title": "Site Accounts",
+    "section": "Market Street",
+    "text": "Market Street\n\n\n28 species observed across 14 checklists in 9 months. 1 total hours of effort covering 6 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-bus-station",
+    "href": "site_accounts.html#st-andrews-bus-station",
+    "title": "Site Accounts",
+    "section": "St Andrews Bus Station",
+    "text": "St Andrews Bus Station\n\n\n29 species observed across 15 checklists in 8 months. 2 total hours of effort covering 2 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-marys-quad",
+    "href": "site_accounts.html#st-marys-quad",
+    "title": "Site Accounts",
+    "section": "St Mary’s Quad",
+    "text": "St Mary’s Quad\n\n\n17 species observed across 9 checklists in 5 months. 0 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-leonards-school",
+    "href": "site_accounts.html#st-leonards-school",
+    "title": "Site Accounts",
+    "section": "St Leonard’s School",
+    "text": "St Leonard’s School\n\n\n4 species observed across 1 checklists in 1 months. 0 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#doubledykes-road",
+    "href": "site_accounts.html#doubledykes-road",
+    "title": "Site Accounts",
+    "section": "Doubledykes Road",
+    "text": "Doubledykes Road\n\n\n30 species observed across 17 checklists in 7 months. 1 total hours of effort covering 5 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#hepburn-gardens",
+    "href": "site_accounts.html#hepburn-gardens",
+    "title": "Site Accounts",
+    "section": "Hepburn Gardens",
+    "text": "Hepburn Gardens\n\n\n45 species observed across 54 checklists in 11 months. 5 total hours of effort covering 21 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#kennedy-gardens",
+    "href": "site_accounts.html#kennedy-gardens",
+    "title": "Site Accounts",
+    "section": "Kennedy Gardens",
+    "text": "Kennedy Gardens\n\n\n44 species observed across 60 checklists in 12 months. 7 total hours of effort covering 30 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#saint-leonards-road",
+    "href": "site_accounts.html#saint-leonards-road",
+    "title": "Site Accounts",
+    "section": "Saint Leonard’s Road",
+    "text": "Saint Leonard’s Road\n\n\n40 species observed across 45 checklists in 9 months. 4 total hours of effort covering 9 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#saint-leonards-cottage",
+    "href": "site_accounts.html#saint-leonards-cottage",
+    "title": "Site Accounts",
+    "section": "Saint Leonard’s Cottage",
+    "text": "Saint Leonard’s Cottage\n\n\n48 species observed across 90 checklists in 12 months. 4 total hours of effort covering 4 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#university-hall",
+    "href": "site_accounts.html#university-hall",
+    "title": "Site Accounts",
+    "section": "University Hall",
+    "text": "University Hall\n\n\n29 species observed across 20 checklists in 9 months. 1 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-sports-centre",
+    "href": "site_accounts.html#st-andrews-sports-centre",
+    "title": "Site Accounts",
+    "section": "St Andrews Sports Centre",
+    "text": "St Andrews Sports Centre\n\n\n47 species observed across 59 checklists in 12 months. 6 total hours of effort covering 20 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-observatory",
+    "href": "site_accounts.html#st-andrews-observatory",
+    "title": "Site Accounts",
+    "section": "St Andrews Observatory",
+    "text": "St Andrews Observatory\n\n\n50 species observed across 129 checklists in 11 months. 12 total hours of effort covering 18 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#lade-braes",
+    "href": "site_accounts.html#lade-braes",
+    "title": "Site Accounts",
+    "section": "Lade Braes",
+    "text": "Lade Braes\n\n\n56 species observed across 89 checklists in 12 months. 32 total hours of effort covering 104 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-botanic-gardens",
+    "href": "site_accounts.html#st-andrews-botanic-gardens",
+    "title": "Site Accounts",
+    "section": "St Andrews Botanic Gardens",
+    "text": "St Andrews Botanic Gardens\n\n\n26 species observed across 1 checklists in 1 months. 1 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#john-knox-road",
+    "href": "site_accounts.html#john-knox-road",
+    "title": "Site Accounts",
+    "section": "John Knox Road",
+    "text": "John Knox Road\n\n\n23 species observed across 5 checklists in 5 months. 1 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#bogward-road",
+    "href": "site_accounts.html#bogward-road",
+    "title": "Site Accounts",
+    "section": "Bogward Road",
+    "text": "Bogward Road\n\n\n15 species observed across 2 checklists in 2 months. 0 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#broomfaulds-avenue",
+    "href": "site_accounts.html#broomfaulds-avenue",
+    "title": "Site Accounts",
+    "section": "Broomfaulds Avenue",
+    "text": "Broomfaulds Avenue\n\n\n24 species observed across 7 checklists in 6 months. 1 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#watson-avenue",
+    "href": "site_accounts.html#watson-avenue",
+    "title": "Site Accounts",
+    "section": "Watson Avenue",
+    "text": "Watson Avenue\n\n\n23 species observed across 2 checklists in 1 months. 1 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#scooniehill-road",
+    "href": "site_accounts.html#scooniehill-road",
+    "title": "Site Accounts",
+    "section": "Scooniehill Road",
+    "text": "Scooniehill Road\n\n\n24 species observed across 3 checklists in 3 months. 1 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#roundhill-road",
+    "href": "site_accounts.html#roundhill-road",
+    "title": "Site Accounts",
+    "section": "Roundhill Road",
+    "text": "Roundhill Road\n\n\n4 species observed across 1 checklists in 1 months. 0 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#irvine-crescent",
+    "href": "site_accounts.html#irvine-crescent",
+    "title": "Site Accounts",
+    "section": "Irvine Crescent",
+    "text": "Irvine Crescent\n\n\n9 species observed across 1 checklists in 1 months. 0 total hours of effort covering 0 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#st-andrews-holiday-park",
+    "href": "site_accounts.html#st-andrews-holiday-park",
+    "title": "Site Accounts",
+    "section": "St Andrews Holiday Park",
+    "text": "St Andrews Holiday Park\n\n\n15 species observed across 2 checklists in 2 months. 0 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#a917-between-lamond-drive-and-b9131",
+    "href": "site_accounts.html#a917-between-lamond-drive-and-b9131",
+    "title": "Site Accounts",
+    "section": "A917 between Lamond Drive and B9131",
+    "text": "A917 between Lamond Drive and B9131\n\n\n19 species observed across 2 checklists in 2 months. 0 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#farms-between-a917-and-grange-rd",
+    "href": "site_accounts.html#farms-between-a917-and-grange-rd",
+    "title": "Site Accounts",
+    "section": "Farms between A917 and Grange Rd",
+    "text": "Farms between A917 and Grange Rd\n\n\n39 species observed across 4 checklists in 4 months. 2 total hours of effort covering 5 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#grange-rd-secret-garden",
+    "href": "site_accounts.html#grange-rd-secret-garden",
+    "title": "Site Accounts",
+    "section": "Grange Rd Secret Garden",
+    "text": "Grange Rd Secret Garden\n\n\n32 species observed across 3 checklists in 3 months. 1 total hours of effort covering 2 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#farms-between-a917-and-a915",
+    "href": "site_accounts.html#farms-between-a917-and-a915",
+    "title": "Site Accounts",
+    "section": "Farms between A917 and A915",
+    "text": "Farms between A917 and A915\n\n\n32 species observed across 2 checklists in 2 months. 2 total hours of effort covering 5 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#fields-behind-morrisons-medical-centre",
+    "href": "site_accounts.html#fields-behind-morrisons-medical-centre",
+    "title": "Site Accounts",
+    "section": "Fields behind Morrisons & Medical Centre",
+    "text": "Fields behind Morrisons & Medical Centre\n\n\n37 species observed across 6 checklists in 4 months. 2 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#cairnsmill-caravan-park",
+    "href": "site_accounts.html#cairnsmill-caravan-park",
+    "title": "Site Accounts",
+    "section": "Cairnsmill Caravan Park",
+    "text": "Cairnsmill Caravan Park\n\n\n19 species observed across 2 checklists in 2 months. 0 total hours of effort covering 1 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#balone-steading",
+    "href": "site_accounts.html#balone-steading",
+    "title": "Site Accounts",
+    "section": "Balone Steading",
+    "text": "Balone Steading\n\n\n34 species observed across 3 checklists in 2 months. 2 total hours of effort covering 3 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#lumbo-den",
+    "href": "site_accounts.html#lumbo-den",
+    "title": "Site Accounts",
+    "section": "Lumbo Den",
+    "text": "Lumbo Den\n\n\n27 species observed across 3 checklists in 2 months. 1 total hours of effort covering 2 km.\nText."
+  },
+  {
+    "objectID": "species_accounts.html",
+    "href": "species_accounts.html",
+    "title": "Species Accounts",
+    "section": "",
+    "text": "6 observations in 4 months across 4 sites. 13 total counted, high count 7. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor to the patch throughout the year. Mostly single birds, with a small flock on Balgove Bay on the 4th of May and a pair at the same site on the 17th of August. Perhaps surprising that I did not pick more birds up throughout the year, particularly during migration periods; I am unsure whether the birds seen on the patch this year come from the native population in the north-west, or introduced birds further south."
+  },
+  {
+    "objectID": "species_accounts.html#graylag-goose",
+    "href": "species_accounts.html#graylag-goose",
+    "title": "Species Accounts",
+    "section": "Graylag Goose",
+    "text": "Graylag Goose\n6 observations in 4 months across 4 sites. 13 total counted, high count 7. Breeding codes: none.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRare visitor to the patch throughout the year. Mostly single birds, with a small flock on Balgove Bay on the 4th of May and a pair at the same site on the 17th of August. Perhaps surprising that I did not pick more birds up throughout the year, particularly during migration periods; I am unsure whether the birds seen on the patch this year come from the native population in the north-west, or introduced birds further south."
+  },
+  {
+    "objectID": "species_accounts.html#graylag-goose-1",
+    "href": "species_accounts.html#graylag-goose-1",
+    "title": "Species Accounts",
+    "section": "Graylag Goose",
+    "text": "Graylag Goose"
+  },
+  {
+    "objectID": "species_accounts.html#pink-footed-goose-1",
+    "href": "species_accounts.html#pink-footed-goose-1",
+    "title": "Species Accounts",
+    "section": "Pink-footed Goose",
+    "text": "Pink-footed Goose\n114 observations in 8 months across 27 sites. 12900 total birds counted, high count 1406. Breeding codes reported: none."
+  },
+  {
+    "objectID": "species_accounts.html#brant-1",
+    "href": "species_accounts.html#brant-1",
+    "title": "Species Accounts",
+    "section": "Brant",
+    "text": "Brant"
+  },
+  {
+    "objectID": "species_accounts.html#barnacle-goose-1",
+    "href": "species_accounts.html#barnacle-goose-1",
+    "title": "Species Accounts",
+    "section": "Barnacle Goose",
+    "text": "Barnacle Goose"
+  },
+  {
+    "objectID": "site_accounts.html",
+    "href": "site_accounts.html",
+    "title": "Site Accounts",
+    "section": "",
+    "text": "87 species observed across 24 checklists in 12 months. 28 total hours of effort covering 37 km.\nText.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n88 species observed across 45 checklists in 12 months. 49 total hours of effort covering 10 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#out-head",
+    "href": "site_accounts.html#out-head",
+    "title": "Site Accounts",
+    "section": "",
+    "text": "87 species observed across 24 checklists in 12 months. 28 total hours of effort covering 37 km.\nText."
+  },
+  {
+    "objectID": "site_accounts.html#balgove-bay-east",
+    "href": "site_accounts.html#balgove-bay-east",
+    "title": "Site Accounts",
+    "section": "",
+    "text": "88 species observed across 45 checklists in 12 months. 49 total hours of effort covering 10 km.\nText."
+  }
+]

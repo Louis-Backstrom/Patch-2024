@@ -1,0 +1,235 @@
+---
+title: "analysis"
+---
+
+```{r}
+library(renv)
+
+install("tidyverse")
+install("sf")
+install("CornellLabofOrnithology/auk")
+install("DT")
+install("cowplot")
+install("mapview")
+
+library(tidyverse)
+library(sf)
+library(auk)
+library(DT)
+library(cowplot)
+library(mapview)
+```
+
+```{r}
+localities <- read_sf("data/raw/pub_commcnc.shp")
+patch_boundary <- localities %>% 
+  filter(cc_name == "Royal Burgh of St Andrews") %>% 
+  st_transform(crs = 4326) %>% 
+  st_buffer(dist = 10)
+
+ebird_raw <- read_csv("data/raw/MyEBirdData.csv")
+ebird_patch <- ebird_raw %>% 
+  filter(year(Date) == 2024) %>% 
+  st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326, remove = FALSE) %>% 
+  filter(as.logical(st_intersects(., patch_boundary))) %>% 
+  st_drop_geometry()
+
+write_sf(patch_boundary, "data/patch_boundary.gpkg")
+write_csv(ebird_patch, "data/patch_observations.csv")
+
+rm(localities, ebird_raw, ebird_patch)
+```
+
+```{r}
+rollup_key <- ebird_taxonomy %>% 
+  mutate(report_as = if_else(category == "species", species_code, report_as)) %>% 
+  select(taxon_order, report_as) %>% 
+  left_join(., 
+            ebird_taxonomy %>% 
+              select(-taxon_order),
+            by = c("report_as" = "species_code"))
+
+patch_observations <- read_csv("data/patch_observations.csv") %>% 
+  select("checklist_id" = "Submission ID",
+         "taxon_order" = "Taxonomic Order",
+         "observation_count" = "Count",
+         "locality_id" = "Location ID",
+         "locality" = "Location",
+         "latitude" = "Latitude",
+         "longitude" = "Longitude",
+         "observation_date" = "Date",
+         "observation_time" = "Time",
+         "protocol" = "Protocol",
+         "duration_min" = "Duration (Min)",
+         "all_observations_reported" = "All Obs Reported",
+         "effort_distance_km" = "Distance Traveled (km)",
+         "breeding_code" = "Breeding Code") %>% 
+  left_join(., rollup_key, by = "taxon_order") %>% 
+  drop_na(common_name)
+
+patch_list <- patch_observations %>% 
+  arrange(observation_date, observation_time, taxon_order) %>% 
+  group_by(scientific_name) %>% 
+  filter(row_number() == 1) %>% 
+  ungroup() %>% 
+  mutate(obs_order = row_number()) %>% 
+  arrange(taxon_order) %>% 
+  mutate(tax_order = row_number()) %>% 
+  arrange(observation_date, observation_time, taxon_order) %>% 
+  select(obs_order, observation_date, locality, common_name, 
+         scientific_name, tax_order, checklist_id) %>% 
+  left_join(., ebird_taxonomy %>% 
+              select(scientific_name, species_code), 
+            by = "scientific_name") %>% 
+  mutate(ebird_url = paste0("https://ebird.org/species/", 
+                      species_code, "/GB-SCT-FIF"),
+         link = str_replace_all(tolower(common_name), " ", "-"))
+
+save(patch_list, file = "data/patch_list.RData")
+```
+
+```{r}
+patch_months <- reduce(
+  list(
+    patch_observations %>% 
+      group_by(month = month(observation_date)) %>% 
+      summarise(n_species = n_distinct(common_name)),
+    patch_observations %>% 
+      select(-c(taxon_order, observation_count, breeding_code, 
+                report_as, scientific_name, common_name, order, family, 
+                family_common, category, report_as.y, extinct)) %>% 
+      distinct() %>% 
+      filter(all_observations_reported == 1) %>% 
+      group_by(month = month(observation_date)) %>% 
+      summarise(n_completes = n_distinct(checklist_id)),
+    patch_observations %>% 
+      select(-c(taxon_order, observation_count, breeding_code, 
+                report_as, scientific_name, common_name, order, family, 
+                family_common, category, report_as.y, extinct)) %>% 
+      distinct() %>% 
+      group_by(month = month(observation_date)) %>% 
+      summarise(n_days = n_distinct(observation_date),
+                sum_duration = round(sum(duration_min, na.rm = TRUE)/60, 1),
+                sum_distance = round(sum(effort_distance_km, na.rm = TRUE), 1)),
+    patch_list %>% 
+      group_by(month = month(observation_date)) %>% 
+      summarise(n_additions = n_distinct(common_name))
+  ),
+  left_join
+)
+
+save(patch_months, file = "data/patch_months.RData")
+```
+
+```{r}
+patch_species <- reduce(
+  list(
+    patch_observations %>% 
+      group_by(scientific_name, common_name) %>% 
+      summarise(taxon_order = min(taxon_order),
+                n_records = n(),
+                n_months = n_distinct(month(observation_date)),
+                n_sites = n_distinct(locality),
+                sum_count = sum(observation_count, na.rm = TRUE),
+                max_count = max(observation_count, na.rm = TRUE)) %>% 
+      arrange(taxon_order),
+    patch_observations %>% 
+      group_by(scientific_name, common_name) %>% 
+      arrange(desc(observation_count)) %>% 
+      filter(row_number() == 1) %>% 
+      select(scientific_name, common_name, checklist_id),
+    patch_observations %>% 
+      mutate(breeding_code = word(breeding_code, 1)) %>% 
+      drop_na(breeding_code) %>% 
+      filter(breeding_code != "F") %>% 
+      mutate(breeding_code = factor(breeding_code, levels = c(
+        "NY", "NE", "FS", "FY", "CF", "FL", "ON", "UN", "DD", "NB", "CN",
+        "PE", "B", "A", "N", "C", "T", "P", "M", "S7", "S", "H"
+      ))) %>% 
+      group_by(scientific_name, common_name) %>% 
+      arrange(breeding_code) %>% 
+      summarise(breeding_codes = paste(unique(breeding_code), collapse = ", "))
+  ),
+  left_join
+) %>%
+  mutate(breeding_codes = replace_na(breeding_codes, "none"),
+         max_count = as.integer(max_count),
+         sum_count = as.integer(sum_count))
+
+save(patch_species, file = "data/patch_species.RData")  
+```
+
+```{r}
+patch_monthrrs <- patch_observations %>% 
+  filter(all_observations_reported == TRUE) %>% 
+  group_by(month = month(observation_date)) %>% 
+  summarise(n_checklists = n_distinct(checklist_id)) %>% 
+  expand_grid(., common_name = unique(patch_observations$common_name)) %>% 
+  left_join(., patch_observations %>% 
+              group_by(common_name, month = month(observation_date)) %>% 
+              summarise(n_obs = n_distinct(checklist_id))) %>% 
+  mutate(n_obs = replace_na(n_obs, 0),
+         reporting_rate = n_obs / n_checklists) %>% 
+  left_join(., patch_list %>% 
+              select(common_name, scientific_name, tax_order)) %>% 
+  arrange(tax_order, month) %>% 
+  select(common_name, scientific_name, tax_order, month, n_checklists, n_obs, reporting_rate)
+
+patch_pulses <- list()
+
+for (i in 1:nrow(patch_list)) {
+  
+  rrs <- filter(patch_monthrrs, common_name == pull(arrange(patch_list, tax_order), common_name)[i]) %>% 
+    mutate(reporting_rate = if_else(reporting_rate > 1, 1, reporting_rate))
+  
+  patch_pulses[[i]] <- ggplot(rrs) +
+    geom_rect(aes(xmin = month - 0.5, xmax = month + 0.5, ymin = -sqrt(reporting_rate), ymax = sqrt(reporting_rate))) +
+    scale_x_continuous(limits = c(0.5, 12.5), expand = c(0, 0), breaks = 1:12, labels = str_sub(month.name, 1, 1)) +
+    scale_y_continuous(limits = c(-1, 1), expand = c(0, 0)) +
+    theme_nothing() +
+    theme(axis.text.x = element_text(size = 10)) +
+    labs(x = NULL, y = NULL)
+  
+  rm(rrs)
+}
+
+save(patch_pulses, file = "data/patch_pulses.RData")  
+```
+
+```{r}
+patch_tracks <- read_sf("data/raw/patch_tracks.gpkg") %>% 
+  select(-Name, -Description) %>% 
+  full_join(., patch_observations) %>% 
+  drop_na(locality) %>%
+  st_intersection(., patch_boundary)
+
+# add untracked observations as points from locality position
+patch_tracks <- left_join(patch_observations, patch_tracks) %>% 
+  filter(is.na(cc_name)) %>% 
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE) %>% 
+  select(-geom) %>% 
+  rename(geom = geometry) %>% 
+  bind_rows(patch_tracks, .)
+
+save(patch_tracks, file = "data/patch_tracks.RData")  
+```
+
+```{r}
+patch_sites <- patch_observations %>% 
+  select(checklist_id, locality_id, locality, latitude, longitude, 
+         observation_date, observation_time, protocol, duration_min,
+         all_observations_reported, effort_distance_km) %>% 
+  distinct() %>% 
+  group_by(locality_id, locality, latitude, longitude) %>% 
+  summarise(n_checklists = n_distinct(checklist_id),
+            n_months = n_distinct(month(observation_date)),
+            sum_duration = sum(duration_min / 60, na.rm = TRUE),
+            sum_distance = sum(effort_distance_km, na.rm = TRUE)) %>% 
+  left_join(., patch_observations %>% 
+              group_by(locality_id) %>% 
+              summarise(n_species = n_distinct(common_name)),
+            by = "locality_id") %>% 
+  ungroup()
+
+save(patch_sites, file = "data/patch_sites.RData")
+```

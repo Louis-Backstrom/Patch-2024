@@ -1,0 +1,15 @@
+{
+  "hash": "c7109eb10e59c6385ff55ebd8a8379b2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\n---\n\n\n\n\nAbout this site\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\nDips\n\nSnow Bunting (Out Head, 2nd Jan)\n\nEurasian Goshawk (North Haugh Meadow, 7th Feb)\n\n\\*Eurasian Goshawk (Bogward Rd, 21st Feb)\n\n\\*Brambling (Bogward Rd, 21st Feb)\n\nSnow Bunting (West Sands, 23rd Feb)\n\n\\*White-fronted Goose (Bogward Rd, 26th Feb)\n\nSnow Bunting (Out Head, 1st Mar)\n\nSnow Bunting (Out Head, 2nd Mar)\n\nSnow Bunting (Out Head, 11th Mar)\n\nSnow Bunting (Out Head, 26th Mar)\n\n\\*Hawfinch (Bogward Rd, 4th Apr)\n\n\\*Brambling (Bogward Rd, 4th Apr)\n\n\\*Red Crossbill (Bogward Rd, 4th Apr)\n\n\\*Merlin (Spinkie Den, 7th Apr)\n\n\\*Ring Ouzel (Bogward Rd, 13th Apr)\n\n\\*Brambling (Bogward Rd, 13th Apr)\n\n\\*Tree Pipit (Bogward Rd, 20th Apr)\n\n\\*Arctic Loon (Out Head, 22nd Apr)\n\nLesser Whitethroat (Out Head, 1st May)\n\n\\*Common Grasshopper Warbler (Out Head, 1st May)\n\n\\*Common Grasshopper Warbler (Out Head, 7th May)\n\n\\*Nuthatch (Bogward Rd, 12th May)\n\n\\*Lesser Whitethroat (Bogward Rd, 3rd Jun)\n\n\\*Arctic Loon (Out Head, 7th Jul)\n\n\\*Arctic Loon (The Scores, 8th Jul)\n\n\\*Tree Pipit (Bogward Rd, 15th Jul)\n\nLittle Tern (Out Head, 19th Jul)\n\nWestern Marsh Harrier (Farms between A917 and Grange Rd, 10th Aug)\n\n\\*Pomarine Jaeger (Out Head, 11th Aug)\n\n\\*Black Tern (Out Head, 11th Aug)\n\n\\*Mediterranean Gull (Out Head, 11th Aug)\n\n\\*Black Tern (Out Head, 14th Aug)\n\n\\*Whinchat (Out Head, 14th Aug)\n\n\\*Western Marsh Harrier (Bogward Rd, 22nd Aug)\n\n\\*Curlew Sandpiper (Balgove Bay, 28th Aug)\n\n\\*Lesser Whitethroat (Lade Braes, 3rd Sep)\n\n\\*Roseate Tern (Out Head, 4th Sep)\n\nSpotted Flycatcher (Market Street, 6th Sep)\n\n\\*Curlew Sandpiper (Balgove Bay, 11th Sep)\n\n\\*Curlew Sandpiper (Out Head, 18th Sep)\n\n\\*Hawfinch (Bogward Rd, 20th Oct)\n\n\\*Brambling (Bogward Rd, 20th Oct)\n\n\\*Eurasian Goshawk (Bogward Rd, 20th Oct)\n\nSnow Bunting (Out Head, 26th Oct)\n\n\\*Hawfinch (Bogward Rd, 28th Oct)\n\n\\*Red Crossbill (Bogward Rd, 28th Oct)\n\n\\*Brambling (Bogward Rd, 28th Oct)\n\n\\*Eurasian Goshawk (Bogward Rd, 28th Oct)\n\n\\*Red Crossbill (Spinkie Den, 3rd Nov)\n\n\\*Brambling (Spinkie Den, 3rd Nov)\n\nArctic Loon (Out Head, 5th Nov)\n\n\\*Hawfinch (Bogward Rd, 21st Nov)\n\n\\*Arctic Loon (St Andrews Aquarium, 13th Dec)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

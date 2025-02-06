@@ -1,0 +1,1151 @@
+---
+title: "Site Accounts"
+---
+
+```{r, echo = FALSE, output = FALSE}
+library(tidyverse)
+library(mapview)
+library(sf)
+
+load("data/patch_sites.RData")
+load("data/patch_tracks.RData")
+
+patch_boundary <- read_sf("data/patch_boundary.gpkg")
+```
+
+# Eden Estuary
+
+## Out Head
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Out Head", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Out Head", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Out Head", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Out Head", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Out Head", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Out Head"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Balgove Bay (East)
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Balgove Bay (East)", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Balgove Bay (East)", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Balgove Bay (East)", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Balgove Bay (East)", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Balgove Bay (East)", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Balgove Bay (East)"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+# St Andrews Bay
+
+## West Sands
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "West Sands", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "West Sands", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "West Sands", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "West Sands", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "West Sands", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "West Sands"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Aquarium Viewpoint
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Aquarium Viewpoint", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Aquarium Viewpoint", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Aquarium Viewpoint", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Aquarium Viewpoint", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Aquarium Viewpoint", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Aquarium Viewpoint"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## The Scores
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "The Scores", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "The Scores", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "The Scores", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "The Scores", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "The Scores", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "The Scores"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## East Sands
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "East Sands", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "East Sands", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "East Sands", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "East Sands", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "East Sands", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "East Sands"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Coastal Path from St Andrews
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Coastal Path from St Andrews", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Coastal Path from St Andrews", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Coastal Path from St Andrews", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Coastal Path from St Andrews", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Coastal Path from St Andrews", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Coastal Path from St Andrews"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Maiden Rock
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Maiden Rock", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Maiden Rock", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Maiden Rock", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Maiden Rock", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Maiden Rock", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Maiden Rock"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Sweet Zephyr Overlook
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Sweet Zephyr Overlook", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Sweet Zephyr Overlook", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Sweet Zephyr Overlook", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Sweet Zephyr Overlook", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Sweet Zephyr Overlook", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Sweet Zephyr Overlook"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+# North of Town
+
+## North Haugh Pond
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "North Haugh Pond", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "North Haugh Pond", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "North Haugh Pond", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "North Haugh Pond", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "North Haugh Pond", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "North Haugh Pond"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## North Haugh Meadow 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "North Haugh Meadow", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "North Haugh Meadow", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "North Haugh Meadow", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "North Haugh Meadow", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "North Haugh Meadow", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "North Haugh Meadow"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Andrews Links 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Links", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Links", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Links", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Links", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Links", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Links"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Balgove Farm 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Balgove Farm", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Balgove Farm", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Balgove Farm", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Balgove Farm", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Balgove Farm", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Balgove Farm"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Old Course Hotel Bus Stop 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Old Course Hotel Bus Stop", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Old Course Hotel Bus Stop", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Old Course Hotel Bus Stop", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Old Course Hotel Bus Stop", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Old Course Hotel Bus Stop", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Old Course Hotel Bus Stop"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Swilken Burn to Balgove Bay 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Swilken Burn to Balgove Bay", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Swilken Burn to Balgove Bay", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Swilken Burn to Balgove Bay", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Swilken Burn to Balgove Bay", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Swilken Burn to Balgove Bay", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Swilken Burn to Balgove Bay"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## David Russell Apartments to Swilken Burn 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "David Russell Apartments to Swilken Burn", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "David Russell Apartments to Swilken Burn", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "David Russell Apartments to Swilken Burn", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "David Russell Apartments to Swilken Burn", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "David Russell Apartments to Swilken Burn", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "David Russell Apartments to Swilken Burn"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Strathkinness High to Strathkinness Low Roads 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Strathkinness High to Strathkinness Low Roads", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Strathkinness High to Strathkinness Low Roads", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Strathkinness High to Strathkinness Low Roads", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Strathkinness High to Strathkinness Low Roads", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Strathkinness High to Strathkinness Low Roads", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Strathkinness High to Strathkinness Low Roads"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## B939 (Buchanan Gardens and Strathkinness Low Road) 
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "B939 (Buchanan Gardens and Strathkinness Low Road)", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "B939 (Buchanan Gardens and Strathkinness Low Road)", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "B939 (Buchanan Gardens and Strathkinness Low Road)", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "B939 (Buchanan Gardens and Strathkinness Low Road)", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "B939 (Buchanan Gardens and Strathkinness Low Road)", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "B939 (Buchanan Gardens and Strathkinness Low Road)"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Kinness Burn between Rufflets and Lade Braes
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Kinness Burn between Rufflets and Lade Braes", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Kinness Burn between Rufflets and Lade Braes", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Kinness Burn between Rufflets and Lade Braes", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Kinness Burn between Rufflets and Lade Braes", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Kinness Burn between Rufflets and Lade Braes", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Kinness Burn between Rufflets and Lade Braes"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+# Around Town
+
+## Market Street
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Market Street", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Market Street", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Market Street", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Market Street", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Market Street", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Market Street"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Andrews Bus Station
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Bus Station", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Bus Station", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Bus Station", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Bus Station", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Bus Station", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Bus Station"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Mary's Quad
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Mary's Quad", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Mary's Quad", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Mary's Quad", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Mary's Quad", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Mary's Quad", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Mary's Quad"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Leonard's School
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Leonard's School", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Leonard's School", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Leonard's School", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Leonard's School", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Leonard's School", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Leonard's School"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Doubledykes Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Doubledykes Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Doubledykes Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Doubledykes Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Doubledykes Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Doubledykes Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Doubledykes Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Hepburn Gardens
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Hepburn Gardens", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Hepburn Gardens", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Hepburn Gardens", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Hepburn Gardens", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Hepburn Gardens", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Hepburn Gardens"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Kennedy Gardens
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Kennedy Gardens", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Kennedy Gardens", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Kennedy Gardens", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Kennedy Gardens", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Kennedy Gardens", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Kennedy Gardens"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Saint Leonard's Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Saint Leonard's Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Saint Leonard's Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Saint Leonard's Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Saint Leonard's Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Saint Leonard's Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Saint Leonard's Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Saint Leonard's Cottage
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Saint Leonard's Cottage", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Saint Leonard's Cottage", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Saint Leonard's Cottage", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Saint Leonard's Cottage", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Saint Leonard's Cottage", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Saint Leonard's Cottage"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## University Hall
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "University Hall", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "University Hall", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "University Hall", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "University Hall", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "University Hall", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "University Hall"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Andrews Sports Centre
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Sports Centre", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Sports Centre", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Sports Centre", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Sports Centre", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Sports Centre", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Sports Centre"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Andrews Observatory
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Observatory", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Observatory", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Observatory", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Observatory", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Observatory", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Observatory"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Lade Braes
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Lade Braes", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Lade Braes", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Lade Braes", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Lade Braes", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Lade Braes", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Lade Braes"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## St Andrews Botanic Gardens
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Botanic Gardens", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Botanic Gardens", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Botanic Gardens", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Botanic Gardens", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Botanic Gardens", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Botanic Gardens"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## John Knox Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "John Knox Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "John Knox Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "John Knox Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "John Knox Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "John Knox Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "John Knox Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Bogward Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Bogward Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Bogward Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Bogward Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Bogward Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Bogward Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Bogward Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Broomfaulds Avenue
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Broomfaulds Avenue", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Broomfaulds Avenue", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Broomfaulds Avenue", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Broomfaulds Avenue", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Broomfaulds Avenue", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Broomfaulds Avenue"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Watson Avenue
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Watson Avenue", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Watson Avenue", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Watson Avenue", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Watson Avenue", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Watson Avenue", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Watson Avenue"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Scooniehill Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Scooniehill Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Scooniehill Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Scooniehill Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Scooniehill Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Scooniehill Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Scooniehill Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Roundhill Road
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Roundhill Road", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Roundhill Road", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Roundhill Road", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Roundhill Road", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Roundhill Road", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Roundhill Road"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Irvine Crescent
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Irvine Crescent", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Irvine Crescent", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Irvine Crescent", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Irvine Crescent", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Irvine Crescent", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Irvine Crescent"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+# South of Town
+
+## St Andrews Holiday Park
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "St Andrews Holiday Park", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "St Andrews Holiday Park", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "St Andrews Holiday Park", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "St Andrews Holiday Park", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "St Andrews Holiday Park", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "St Andrews Holiday Park"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## A917 between Lamond Drive and B9131
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "A917 between Lamond Drive and B9131", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "A917 between Lamond Drive and B9131", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "A917 between Lamond Drive and B9131", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "A917 between Lamond Drive and B9131", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "A917 between Lamond Drive and B9131", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "A917 between Lamond Drive and B9131"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Farms between A917 and Grange Rd
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Farms between A917 and Grange Rd", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Farms between A917 and Grange Rd", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Farms between A917 and Grange Rd", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Farms between A917 and Grange Rd", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Farms between A917 and Grange Rd", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Farms between A917 and Grange Rd"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Grange Rd Secret Garden
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Grange Rd Secret Garden", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Grange Rd Secret Garden", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Grange Rd Secret Garden", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Grange Rd Secret Garden", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Grange Rd Secret Garden", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Grange Rd Secret Garden"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Farms between A917 and A915
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Farms between A917 and A915", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Farms between A917 and A915", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Farms between A917 and A915", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Farms between A917 and A915", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Farms between A917 and A915", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Farms between A917 and A915"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Fields behind Morrisons & Medical Centre
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Fields behind Morrisons & Medical Centre", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Fields behind Morrisons & Medical Centre", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Fields behind Morrisons & Medical Centre", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Fields behind Morrisons & Medical Centre", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Fields behind Morrisons & Medical Centre", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Fields behind Morrisons & Medical Centre"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Cairnsmill Caravan Park
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Cairnsmill Caravan Park", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Cairnsmill Caravan Park", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Cairnsmill Caravan Park", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Cairnsmill Caravan Park", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Cairnsmill Caravan Park", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Cairnsmill Caravan Park"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Balone Steading
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Balone Steading", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Balone Steading", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Balone Steading", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Balone Steading", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Balone Steading", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Balone Steading"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::
+
+## Lumbo Den
+
+:::::: columns
+::: {.column width="47.5%"}
+
+**`{r} patch_sites[patch_sites$locality == "Lumbo Den", "n_species"]`** species observed across **`{r} patch_sites[patch_sites$locality == "Lumbo Den", "n_checklists"]`** checklists in **`{r} patch_sites[patch_sites$locality == "Lumbo Den", "n_months"]`** months. **`{r} round(patch_sites[patch_sites$locality == "Lumbo Den", "sum_duration"])`** total hours of effort covering **`{r} round(patch_sites[patch_sites$locality == "Lumbo Den", "sum_distance"])`** km.
+
+Text.
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47.5%"}
+```{r, echo = FALSE, fig.height = 5.1}
+mapview(filter(patch_tracks, locality == "Lumbo Den"),
+        alpha.regions = 0, legend = FALSE, homebutton = FALSE, layer.name = "Tracks",
+        color = "black", popup = FALSE, label = FALSE)
+```
+:::
+::::::

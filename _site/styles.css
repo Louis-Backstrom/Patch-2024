@@ -1,0 +1,15 @@
+/* css styles */
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+p {
+  text-align: justify
+}
+
+iframe {
+    width:100%;
+    height:400px;
+}
