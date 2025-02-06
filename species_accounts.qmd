@@ -2709,7 +2709,7 @@ mapview(list(filter(patch_tracks, common_name == "Common Kingfisher"), patch_bou
 :::
 ::::::
 
-Rare resident. A secretive inhabitant of aquatic habitats around town, with birds observed on [North Haugh Pond](site_accounts.qmd#north-haugh-pond), on the Kinness Burn by [Lade Braes](site_accounts.qmd#lade-braes), and along the coastline from the [Aquarium](site_accounts.qmd#aquarium-viewpoint) to [Maiden Rock](site_accounts.qmd#maiden-rock).
+Rare resident. A secretive inhabitant of aquatic habitats around town, with birds observed on [North Haugh Pond](site_accounts.qmd#north-haugh-pond), on the Kinness Burn by [Lade Braes](site_accounts.qmd#lade-braes), and along the coastline from the [Aquarium](site_accounts.qmd#aquarium-viewpoint) to [Maiden Rock](site_accounts.qmd#maiden-rock). Conspicuously absent throughout most of the summer, so perhaps did not breed locally, but may well have also just bred secretively somewhere on the patch. Usually just seen singly, with a couple of sightings of a pair at [North Haugh Pond](site_accounts.qmd#north-haugh-pond).
 
 ## Great Spotted Woodpecker
 
@@ -2738,7 +2738,7 @@ mapview(list(filter(patch_tracks, common_name == "Great Spotted Woodpecker"), pa
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon resident. Present throughout most of the woods around town, particularly in the north-west around the Balgove estate. No definitive breeding evidence, but almost certainly breeds locally given this species' sedentary nature and the regularity of sightings throughout the year. Mostly seen singly, with a couple of sightings of two birds: on the [23rd of April](https://ebird.org/checklist/S169902506) along [Lade Braes](site_accounts.qmd#lade-braes), and on the [5th of May](https://ebird.org/checklist/S172094983) by [North Haugh Pond](site_accounts.qmd#north-haugh-pond). 
 
 ## Eurasian Kestrel
 
@@ -2767,7 +2767,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Kestrel"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon visitor. Probably more common (and likely resident) just outside town, with several records on the outskirts of the patch in farmland, although birds not regular at any one site on the patch. Seen throughout the year, although only in eight months, and only ever one bird at a time. 
 
 ## Peregrine Falcon
 
@@ -2796,7 +2796,7 @@ mapview(list(filter(patch_tracks, common_name == "Peregrine Falcon"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Uncommon visitor. As with [Eurasian Kestrel](species_accounts.qmd#eurasian-kestrel), not resident in town but probably bred somewhere nearby, given the relative regularity of sightings throughout the year. Several sightings on [Balgove Bay](site_accounts.qmd#balgove-bay-east), including a record of two birds on the [14th of December](https://ebird.org/checklist/S205324954). 
 
 ## Eurasian Jay
 
@@ -2825,7 +2825,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Jay"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare visitor. It is difficult to say with certainty what this species' status on the patch is, given the somewhat perplexing pattern of occurrence throughout the year. The majority of records of the species came from [North Haugh Pond](site_accounts.qmd#north-haugh-pond) during autumn and winter, with two birds present around the pond from early October to the end of the year; the same pattern of occurrence in late 2023 at the pond suggests this may be a regular annual occurrence. In addition, two birds were seen in [Lumbo Den](site_accounts.qmd#lumbo-den) on the [1st of June](https://ebird.org/checklist/S178540214); given how infrequently I birded in these woods throughout the year they may be more regular there, but it is hard to say with certainty whether birds are resident in the patch or whether they just move through from time to time.
 
 ## Eurasian Magpie
 
@@ -2854,7 +2854,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Magpie"), patch_bound
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Present throughout the year and all across the patch, with birds being particularly abundant in parks, gardens and rural areas (mostly avoiding the most built up parts of town, as well as the Eden Estuary and St Andrews Bay). Generally seen in ones or twos, with occasional small flocks of up to 10 birds (the high count for the year coming on the [13th of January](https://ebird.org/checklist/S158758506) along [Buchanan Gardens](site_accounts.qmd#b939-buchanan-gardens-and-strathkinness-low-road)). Not seen breeding on the patch, but given its abundance and resident nature, almost certainly did.
 
 ## Eurasian Jackdaw
 
@@ -2883,7 +2883,7 @@ mapview(list(filter(patch_tracks, common_name == "Eurasian Jackdaw"), patch_boun
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. One of the most abundant birds on the patch; flocks of more than one hundred birds were observed at [North Haugh Pond](site_accounts.qmd#north-haugh-pond) (on the [3rd of March](https://ebird.org/checklist/S163525972) and [28th of July](https://ebird.org/checklist/S189318817)), around the Balgove estate (on the [30th](https://ebird.org/checklist/S166499686) and [31st](https://ebird.org/checklist/S166615082) of March), and in [Lumbo Den](site_accounts.qmd#lumbo-den) (on the [7th of July](https://ebird.org/checklist/S185778343); this was the largest flock of the year, numbering 219 birds). Often seen in association with other corvids.
 
 ## Rook
 
@@ -2912,7 +2912,7 @@ mapview(list(filter(patch_tracks, common_name == "Rook"), patch_boundary),
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. Although less abundant than [Eurasian Jackdaw](species_accounts.qmd#eurasian-jackdaw) or [Carrion Crow](species_accounts.qmd#carrion-crow), nevertheless a common bird around town, with at least two active rookeries on the patch: one in the trees by Eden Clubhouse (on the [golf course](site_accounts.qmd#st-andrews-links)), and another in the trees around Mill Pond (along the [Lade Braes](site_accounts.qmd#lade-braes)). Often seen in flocks, with the largest flock of the year numbering 111 birds on [West Sands](site_accounts.qmd#west-sands) on the [10th of February](https://ebird.org/checklist/S161076110).
 
 ## Carrion Crow
 
@@ -2941,7 +2941,7 @@ mapview(list(filter(patch_tracks, common_name == "Carrion Crow"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Common resident. One of the most common birds in town, being seen in all parts of the patch and in all months of the year, often in large numbers. The largest flock of the year comprised 161 birds near [Balgove Bay](site_accounts.qmd#balgove-bay-east) on the [29th of September](https://ebird.org/checklist/S196855128); counts of more than 50 birds were also recorded at [Out Head](site_accounts.qmd#out-head), the [Aquarium](site_accounts.qmd#aquarium-viewpoint), and [West Sands](site_accounts.qmd#west-sands). Birds bred in several locations around the patch, with nesting behaviours seen near [David Russell Apartments](site_accounts.qmd#david-russell-apartments-to-swilken-burn), [Doubledykes Road](site_accounts.qmd#doubledykes-road), the [Observatory](site_accounts.qmd#st-andrews-observatory), [North Haugh Pond](site_accounts.qmd#north-haugh-pond), and the [golf course](site_accounts.qmd#st-andrews-links).
 
 ## Common Raven
 
@@ -2970,7 +2970,7 @@ mapview(list(filter(patch_tracks, common_name == "Common Raven"), patch_boundary
 :::
 ::::::
 
-Brief description. Records description. Commentary.
+Rare winter visitor. Present around [North Haugh Pond](site_accounts.qmd#north-haugh-pond) during the first couple of months of the year, with up to three birds seen throughout January and February (the final record coming on the [18th of February](https://ebird.org/checklist/S161956481)); records at the [Observatory](site_accounts.qmd#st-andrews-observatory) and along [Lade Braes](site_accounts.qmd#lade-braes) during this period probably referred to the same birds wandering around town. Not seen again until November, when a pair of birds flew past the [Aquarium](site_accounts.qmd#aquarium-viewpoint) on the [5th](https://ebird.org/checklist/S201454703). 
 
 ## Coal Tit
 
